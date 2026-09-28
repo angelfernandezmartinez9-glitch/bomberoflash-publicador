@@ -1,0 +1,50 @@
+name: Publicar en Instagram
+
+on:
+  schedule:
+    # Cada hora, en el minuto 7. Publica los posts de cola.json cuya hora ya ha llegado.
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "publicar, simular o comprobar"
+        required: true
+        default: "comprobar"
+        type: choice
+        options: [publicar, simular, comprobar]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Publicar lo que toque
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          MAX_POR_EJECUCION: "1"
+        run: python publicador/publicar.py --${{ github.event.inputs.modo || 'publicar' }}
+
+      - name: Guardar el estado de la cola
+        if: always()
+        run: |
+          if ! git diff --quiet -- cola.json; then
+            git config user.name "publicador-bomberoflash"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add cola.json
+            git commit -m "Cola: actualizar estado de publicación"
+            git pull --rebase
+            git push
+          fi
