@@ -1,9 +1,10 @@
 name: Publicar en Instagram
 
 on:
-  schedule:
-    # Cada hora, en el minuto 7. Publica los posts de cola.json cuya hora ya ha llegado.
-    - cron: "7 * * * *"
+  # DESACTIVADO: no hay token de Instagram. Para activarlo, sigue CONFIGURAR.md y quita los # de estas líneas.
+  # schedule:
+  #   # Cada hora, en el minuto 7. Publica los posts de cola.json cuya hora ya ha llegado.
+  #   - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
       modo:

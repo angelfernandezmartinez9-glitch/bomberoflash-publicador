@@ -1,9 +1,10 @@
 name: Renovar token de Instagram
 
 on:
-  schedule:
-    # Cada lunes a las 06:30 UTC. El token dura 60 días; renovarlo cada semana lo mantiene vivo.
-    - cron: "30 6 * * 1"
+  # DESACTIVADO: no hay token de Instagram. Para activarlo, sigue CONFIGURAR.md y quita los # de estas líneas.
+  # schedule:
+  #   # Cada lunes a las 06:30 UTC. El token dura 60 días; renovarlo cada semana lo mantiene vivo.
+  #   - cron: "30 6 * * 1"
   workflow_dispatch:
 
 permissions:
