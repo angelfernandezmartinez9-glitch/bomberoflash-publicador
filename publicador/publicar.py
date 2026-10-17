@@ -137,6 +137,8 @@ def pendientes_para_ahora(cola):
     for post in cola["posts"]:
         if post.get("estado", "pendiente") != "pendiente":
             continue
+        if post.get("manual") or post.get("tipo") == "reel":
+            continue  # los reels se suben a mano desde la app (llevan música de Instagram)
         fecha = datetime.strptime(post["fecha"], "%Y-%m-%d %H:%M").replace(tzinfo=zona)
         if fecha <= ahora:
             listos.append((fecha, post))
