@@ -43,6 +43,7 @@ main{display:grid;gap:14px;margin-top:16px}
 .chip.done{background:var(--ok-bg);color:var(--ok)}
 .strip{display:flex;gap:6px;overflow-x:auto;padding:0 14px 4px;scroll-snap-type:x mandatory}
 .strip img{flex:none;width:44%;max-width:220px;aspect-ratio:4/5;object-fit:cover;border-radius:10px;scroll-snap-align:start;background:var(--line)}
+.strip video.reel{flex:none;width:52%;max-width:240px;aspect-ratio:9/16;border-radius:10px;background:#000}
 .caption{margin:10px 14px 0;font-size:14px;color:var(--muted);white-space:pre-line;max-height:4.4em;overflow:hidden;min-width:0}
 .actions{display:flex;flex-wrap:wrap;gap:8px;padding:12px 14px 14px}
 button{font:700 16px/1 var(--body);border-radius:12px;min-height:48px;padding:0 16px;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink)}
@@ -63,7 +64,7 @@ summary{cursor:pointer;font-weight:700}
     <div class="brand">BomberoFlash</div>
     <h1>Subir a Instagram</h1>
     <p>Pulsa el botón rojo del post que toca: se copia el texto y se abre Instagram con las imágenes puestas.</p>
-    <ol class="steps"><li>1 · Subir a Instagram</li><li>2 · Elige Instagram › Publicación</li><li>3 · Pega el texto y comparte</li></ol>
+    <ol class="steps"><li>1 · Subir a Instagram</li><li>2 · Elige Instagram › Publicación (o Reel)</li><li>3 · Pega el texto y comparte</li></ol>
   </div>
 </header>
 <div class="wrap">
@@ -88,6 +89,10 @@ summary{cursor:pointer;font-weight:700}
       let ok=false;try{ok=document.execCommand('copy')}catch(_){}t.remove();return ok}
   }
   async function archivos(post){
+    if(post.video){
+      const res=await fetch('../'+post.video);if(!res.ok)throw new Error('No se pudo cargar el vídeo');
+      return [new File([await res.blob()],post.id+'.mp4',{type:'video/mp4'})];
+    }
     return Promise.all(post.imagenes.map(async(r,i)=>{
       const res=await fetch('../'+r);if(!res.ok)throw new Error('No se pudo cargar '+r);
       const b=await res.blob();return new File([b],post.id+'-'+(i+1)+'.jpg',{type:'image/jpeg'});
@@ -104,7 +109,7 @@ summary{cursor:pointer;font-weight:700}
       const files=await archivos(post);
       if(navigator.canShare&&navigator.canShare({files})){
         await navigator.share({files,title:'BomberoFlash'});
-        msg.className='msg ok';msg.textContent=copiado?'Texto copiado: en Instagram, mantén pulsado el pie de foto y pega.':'Copia el texto con el botón «Copiar texto» y pégalo en Instagram.';
+        msg.className='msg ok';msg.textContent=(post.video?'Reel: añade una canción en Instagram antes de publicar. ':'')+(copiado?'Texto copiado: en Instagram, mantén pulsado el pie de foto y pega.':'Copia el texto con el botón «Copiar texto» y pégalo en Instagram.');
       }else{
         descargar(files);
         msg.className='msg ok';msg.textContent='Imágenes descargadas'+(copiado?' y texto copiado':'')+'. Súbelas en instagram.com o desde el móvil.';
@@ -121,7 +126,7 @@ summary{cursor:pointer;font-weight:700}
     if(hecho){chip.classList.add('done');chip.textContent='Subido'}
     else if(d===h){chip.classList.add('today');chip.textContent='Toca hoy'}
     else if(d<h){chip.classList.add('late');chip.textContent='Atrasado'}
-    else chip.textContent=post.imagenes.length>1?post.imagenes.length+' imágenes':'1 imagen';
+    else chip.textContent=post.video?'Reel':post.imagenes.length>1?post.imagenes.length+' imágenes':'1 imagen';
   }
   fetch('../cola.json',{cache:'no-store'}).then(r=>r.json()).then(cola=>{
     const subidos=leer(),h=hoy();
@@ -141,7 +146,8 @@ summary{cursor:pointer;font-weight:700}
       t.querySelector('.when').textContent=fmt(post.fecha);
       t.querySelector('.caption').textContent=post.texto;
       const strip=t.querySelector('.strip');
-      post.imagenes.forEach((r,i)=>{const im=document.createElement('img');im.loading='lazy';im.src='../'+r;im.alt=`Imagen ${i+1} de ${post.imagenes.length}`;strip.append(im)});
+      if(post.video){const v=document.createElement('video');v.src='../'+post.video;v.poster='../'+post.imagenes[0];v.controls=true;v.muted=true;v.playsInline=true;v.preload='none';v.className='reel';strip.append(v);}
+      else post.imagenes.forEach((r,i)=>{const im=document.createElement('img');im.loading='lazy';im.src='../'+r;im.alt=`Imagen ${i+1} de ${post.imagenes.length}`;strip.append(im)});
       pintarChip(t,post);
       const msg=t.querySelector('.msg');
       t.querySelector('.go').addEventListener('click',e=>subir(post,e.currentTarget,msg,t));
