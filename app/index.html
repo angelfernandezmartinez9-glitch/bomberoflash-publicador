@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Subir a Instagram · BomberoFlash</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#101c35">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;600;700&display=swap">
+<style>
+/* Una columna de tarjetas por día; la del día de hoy arriba y destacada. */
+:root{
+  --navy:#101c35; --navy-2:#1a2a4d; --paper:#f3f5f9; --card:#ffffff; --ink:#14203a; --muted:#5b6782;
+  --line:#dbe2ee; --flash:#ffd43b; --flash-ink:#2a2100; --fire:#e2412f; --ok:#1f8a54; --ok-bg:#e5f5ec;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif; --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{--paper:#0b1426;--card:#13203b;--ink:#eef2f9;--muted:#9fb0cf;--line:#24365a;--ok-bg:#12321f;color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font:16px/1.45 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-bottom:max(24px,env(safe-area-inset-bottom,0px))}
+header{margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px))) 0;background:var(--navy);color:#fff;
+  padding:max(18px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 18px max(16px,env(safe-area-inset-left,0px))}
+.wrap{max-width:640px;margin:0 auto}
+.brand{font:800 15px/1 var(--display);letter-spacing:.14em;color:var(--flash);text-transform:uppercase}
+h1{font:800 clamp(30px,8vw,40px)/1 var(--display);margin:6px 0 8px;text-transform:uppercase;letter-spacing:.01em;text-wrap:balance}
+header p{margin:0;color:#c9d5ec;font-size:15px}
+.steps{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px;padding:0;list-style:none;font-size:13px;color:#dfe7f6}
+.steps li{background:var(--navy-2);border-radius:999px;padding:4px 10px}
+main{display:grid;gap:14px;margin-top:16px}
+.status{font-size:14px;color:var(--muted);margin:0}
+.post{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:grid}
+.post.is-today{border:2px solid var(--flash);box-shadow:0 8px 28px rgba(16,28,53,.18)}
+.post.is-done{opacity:.62}
+.top{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 14px}
+.when{font:800 20px/1 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.chip{font:700 12px/1 var(--body);text-transform:uppercase;letter-spacing:.06em;padding:5px 9px;border-radius:999px;background:var(--line);color:var(--ink);white-space:nowrap}
+.chip.today{background:var(--flash);color:var(--flash-ink)}
+.chip.late{background:var(--fire);color:#fff}
+.chip.done{background:var(--ok-bg);color:var(--ok)}
+.strip{display:flex;gap:6px;overflow-x:auto;padding:0 14px 4px;scroll-snap-type:x mandatory}
+.strip img{flex:none;width:44%;max-width:220px;aspect-ratio:4/5;object-fit:cover;border-radius:10px;scroll-snap-align:start;background:var(--line)}
+.caption{margin:10px 14px 0;font-size:14px;color:var(--muted);white-space:pre-line;max-height:4.4em;overflow:hidden;min-width:0}
+.actions{display:flex;flex-wrap:wrap;gap:8px;padding:12px 14px 14px}
+button{font:700 16px/1 var(--body);border-radius:12px;min-height:48px;padding:0 16px;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+button:focus-visible{outline:3px solid var(--flash);outline-offset:2px}
+button.go{flex:1 1 220px;border:0;background:var(--fire);color:#fff;font:800 20px/1 var(--display);letter-spacing:.04em;text-transform:uppercase}
+button.go:disabled{opacity:.6;cursor:progress}
+.msg{margin:0 14px 14px;font-size:14px;font-weight:600}
+.msg:empty{display:none}
+.msg.ok{color:var(--ok)} .msg.err{color:var(--fire)}
+details{margin-top:6px;font-size:14px;color:var(--muted)}
+summary{cursor:pointer;font-weight:700}
+@media (prefers-reduced-motion:no-preference){.post{transition:opacity .2s}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">BomberoFlash</div>
+    <h1>Subir a Instagram</h1>
+    <p>Pulsa el botón rojo del post que toca: se copia el texto y se abre Instagram con las imágenes puestas.</p>
+    <ol class="steps"><li>1 · Subir a Instagram</li><li>2 · Elige Instagram › Publicación</li><li>3 · Pega el texto y comparte</li></ol>
+  </div>
+</header>
+<div class="wrap">
+  <main id="lista" aria-live="polite"><p class="status">Cargando los posts…</p></main>
+  <details>
+    <summary>¿No sale Instagram al pulsar el botón?</summary>
+    <p>Abre esta página en el móvil con Chrome (Android) o Safari (iPhone) y con la app de Instagram instalada. En el ordenador el botón descarga las imágenes y copia el texto: súbelas desde instagram.com.</p>
+  </details>
+</div>
+<script>
+(function(){
+  const KEY='bf-subidos-v1';
+  const lista=document.getElementById('lista');
+  const leer=()=>{try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(_){return {}}};
+  const guardar=v=>{try{localStorage.setItem(KEY,JSON.stringify(v))}catch(_){}};
+  const hoy=()=>{const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')};
+  const fmt=f=>{const [d,h]=f.split(' ');const [y,m,dd]=d.split('-').map(Number);
+    return new Intl.DateTimeFormat('es-ES',{weekday:'short',day:'numeric',month:'short'}).format(new Date(y,m-1,dd))+' · '+h};
+  async function copiar(texto){
+    try{await navigator.clipboard.writeText(texto);return true}catch(_){
+      const t=document.createElement('textarea');t.value=texto;t.style.position='fixed';t.style.opacity='0';document.body.append(t);t.select();
+      let ok=false;try{ok=document.execCommand('copy')}catch(_){}t.remove();return ok}
+  }
+  async function archivos(post){
+    return Promise.all(post.imagenes.map(async(r,i)=>{
+      const res=await fetch('../'+r);if(!res.ok)throw new Error('No se pudo cargar '+r);
+      const b=await res.blob();return new File([b],post.id+'-'+(i+1)+'.jpg',{type:'image/jpeg'});
+    }));
+  }
+  function descargar(files){
+    files.forEach((f,i)=>setTimeout(()=>{const a=document.createElement('a');a.href=URL.createObjectURL(f);a.download=f.name;document.body.append(a);a.click();a.remove()},i*350));
+  }
+  async function subir(post,boton,msg,tarjeta){
+    boton.disabled=true;msg.className='msg';msg.textContent='Preparando las imágenes…';
+    // Se copia primero, mientras el toque del usuario sigue activo.
+    const copiado=await copiar(post.texto);
+    try{
+      const files=await archivos(post);
+      if(navigator.canShare&&navigator.canShare({files})){
+        await navigator.share({files,title:'BomberoFlash'});
+        msg.className='msg ok';msg.textContent=copiado?'Texto copiado: en Instagram, mantén pulsado el pie de foto y pega.':'Copia el texto con el botón «Copiar texto» y pégalo en Instagram.';
+      }else{
+        descargar(files);
+        msg.className='msg ok';msg.textContent='Imágenes descargadas'+(copiado?' y texto copiado':'')+'. Súbelas en instagram.com o desde el móvil.';
+      }
+      const v=leer();v[post.id]=Date.now();guardar(v);tarjeta.classList.add('is-done');pintarChip(tarjeta,post);
+    }catch(e){
+      if(e&&e.name==='AbortError'){msg.textContent='Cancelado. Puedes volver a pulsar cuando quieras.';}
+      else{msg.className='msg err';msg.textContent='No se pudo preparar: '+(e&&e.message||e)+'. Revisa la conexión y vuelve a pulsar.';}
+    }finally{boton.disabled=false}
+  }
+  function pintarChip(tarjeta,post){
+    const chip=tarjeta.querySelector('.chip'),d=post.fecha.slice(0,10),h=hoy(),hecho=leer()[post.id]||post.estado==='publicado';
+    chip.className='chip';
+    if(hecho){chip.classList.add('done');chip.textContent='Subido'}
+    else if(d===h){chip.classList.add('today');chip.textContent='Toca hoy'}
+    else if(d<h){chip.classList.add('late');chip.textContent='Atrasado'}
+    else chip.textContent=post.imagenes.length>1?post.imagenes.length+' imágenes':'1 imagen';
+  }
+  fetch('../cola.json',{cache:'no-store'}).then(r=>r.json()).then(cola=>{
+    const subidos=leer(),h=hoy();
+    const posts=cola.posts.filter(p=>p.estado!=='error').sort((a,b)=>a.fecha.localeCompare(b.fecha));
+    // Primero lo pendiente (atrasado, hoy, próximos); lo ya subido, al final.
+    const hecho=p=>!!(subidos[p.id]||p.estado==='publicado');
+    posts.sort((a,b)=>(hecho(a)-hecho(b))||a.fecha.localeCompare(b.fecha));
+    lista.innerHTML='';
+    const pend=posts.filter(p=>!hecho(p));
+    const status=document.createElement('p');status.className='status';
+    status.textContent=pend.length?`${pend.length} posts por subir. El siguiente: ${fmt(pend[0].fecha)}.`:'No queda nada por subir.';
+    lista.append(status);
+    for(const post of posts){
+      const t=document.createElement('article');t.className='post';
+      if(post.fecha.slice(0,10)===h)t.classList.add('is-today');if(hecho(post))t.classList.add('is-done');
+      t.innerHTML=`<div class="top"><span class="when"></span><span class="chip"></span></div><div class="strip"></div><p class="caption"></p><div class="actions"><button class="go" type="button">Subir a Instagram</button><button class="copy" type="button">Copiar texto</button></div><p class="msg" role="status"></p>`;
+      t.querySelector('.when').textContent=fmt(post.fecha);
+      t.querySelector('.caption').textContent=post.texto;
+      const strip=t.querySelector('.strip');
+      post.imagenes.forEach((r,i)=>{const im=document.createElement('img');im.loading='lazy';im.src='../'+r;im.alt=`Imagen ${i+1} de ${post.imagenes.length}`;strip.append(im)});
+      pintarChip(t,post);
+      const msg=t.querySelector('.msg');
+      t.querySelector('.go').addEventListener('click',e=>subir(post,e.currentTarget,msg,t));
+      t.querySelector('.copy').addEventListener('click',async()=>{msg.className='msg ok';msg.textContent=(await copiar(post.texto))?'Texto copiado.':'No se pudo copiar: mantén pulsado el texto y cópialo a mano.'});
+      lista.append(t);
+    }
+  }).catch(()=>{lista.innerHTML='<p class="status">No se pudo cargar la lista de posts. Revisa la conexión y recarga la página.</p>'});
+})();
+</script>
+</body>
+</html>
