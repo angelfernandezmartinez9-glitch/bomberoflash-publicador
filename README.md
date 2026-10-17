@@ -23,4 +23,8 @@ Para ponerlo en marcha, sigue [CONFIGURAR.md](CONFIGURAR.md) (una sola vez).
 
 ## Calendario cargado
 
-12 carruseles de exámenes oficiales de Navarra y 5 frases, del 20 de octubre al 13 de noviembre de 2026, a las 10:00, en días sin publicación de Metricool.
+Del 18 de octubre al 13 de noviembre de 2026:
+- 10:00: 12 carruseles de exámenes oficiales de Navarra y 5 frases.
+- 18:00: los 14 apuntes que Metricool ya no pudo publicar en octubre por el límite de 20 posts al mes del plan gratuito (tetraedro, RCP, EBEP, panel naranja, entidades locales, triaje, rollover, Constitución, diferencial, motobombas, Glasgow, Diputación, presión y extintores).
+
+Las ejecuciones automáticas ya están activas: mientras falte el token de Instagram terminan sin hacer nada. En cuanto se guarde el secreto `IG_ACCESS_TOKEN` (CONFIGURAR.md) empieza a publicar. Si el token llega tarde, los posts atrasados salen de uno en uno cada 20 h.

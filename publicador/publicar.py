@@ -174,6 +174,10 @@ def modo_publicar(simular=False):
     if hay_atraso_reciente(cola, listos):
         resumen(f"Hay {len(listos)} post(s) atrasados; el siguiente saldrá cuando pasen 20 h desde el último.")
         return 0
+    if not simular and not os.environ.get("IG_ACCESS_TOKEN", "").strip():
+        # Aún sin conectar Instagram (CONFIGURAR.md): esperar sin dar error cada hora.
+        resumen(f"Esperando el token de Instagram. Hay {len(listos)} post(s) listos; saldrán cuando esté configurado.")
+        return 0
     uid = None if simular else id_cuenta()
     fallos = 0
     for post in listos[:maximo]:
@@ -214,6 +218,9 @@ def modo_comprobar():
 
 
 def modo_renovar():
+    if not os.environ.get("IG_ACCESS_TOKEN", "").strip():
+        resumen("Todavía no hay token de Instagram: nada que renovar.")
+        return 0
     r = llamar("GET", "https://graph.instagram.com/refresh_access_token", grant_type="ig_refresh_token")
     nuevo = r["access_token"]
     dias = int(r.get("expires_in", 0)) // 86400
