@@ -2,6 +2,30 @@
   "zona": "Europe/Madrid",
   "posts": [
     {
+      "id": "apunte_a_tetraedro",
+      "fecha": "2026-10-18 18:00",
+      "tipo": "imagen",
+      "imagenes": [
+        "media/posts_es/a_tetraedro-1.jpg"
+      ],
+      "texto": "El tetraedro del fuego y cómo se rompe cada lado 🔥\n\nCombustible → eliminación. Oxígeno → sofocación. Calor → enfriamiento. Reacción en cadena → inhibición.\n\nHa caído en 33 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de incendios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #tetraedrodelfuego #incendios #examenbombero #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155495"
+    },
+    {
+      "id": "apunte_a_rcp",
+      "fecha": "2026-10-19 18:00",
+      "tipo": "imagen",
+      "imagenes": [
+        "media/posts_es/a_rcp-1.jpg"
+      ],
+      "texto": "RCP en adulto: los números que te preguntan ❤️\n\n30:2 · 100-120 compresiones por minuto · 5-6 cm de profundidad · 112 y DEA cuanto antes.\n\nLa RCP sale en más de 80 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de primeros auxilios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #RCP #primerosauxilios #examenbombero #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155531"
+    },
+    {
       "id": "c04_asistolia",
       "fecha": "2026-10-20 10:00",
       "tipo": "carrusel",
@@ -18,6 +42,22 @@
       "ia": false,
       "estado": "pendiente",
       "pregunta_id": "bf-exam-pb-f81bc49d710fcd74-q-0123"
+    },
+    {
+      "id": "apunte_c_empleados",
+      "fecha": "2026-10-20 18:00",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/posts_es/c_empleados-1.jpg",
+        "media/posts_es/c_empleados-2.jpg",
+        "media/posts_es/c_empleados-3.jpg",
+        "media/posts_es/c_empleados-4.jpg",
+        "media/posts_es/c_empleados-5.jpg"
+      ],
+      "texto": "La pregunta del EBEP que ha caído en 33 exámenes de bombero 📚\n\n«Los empleados públicos se clasifican en…» — Zamora, Toledo, Ferrol, Huelva…\n\nComenta A, B, C o D antes de deslizar 👉 Tienes la solución, el truco C·I·L·E y las 4 trampas que meten para que falles.\n\n📌 Guárdalo para tu repaso de legislación.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Calrosfking, Wikimedia Commons (dominio público)\n\n#oposicionesbombero #EBEP #legislacion #examenbombero #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393154903"
     },
     {
       "id": "c05_caudal-critico",
@@ -38,6 +78,34 @@
       "pregunta_id": "bf-exam-pb-29c59f8c1bd6d7d6-q-0074"
     },
     {
+      "id": "apunte_a_adr",
+      "fecha": "2026-10-21 18:00",
+      "tipo": "imagen",
+      "imagenes": [
+        "media/posts_es/a_adr-1.jpg"
+      ],
+      "texto": "Cómo leer el panel naranja en 10 segundos 🚛🟧\n\nArriba, el número de peligro. Abajo, el número ONU. Cifra doble = peligro intensificado. ¿Una X delante? Nada de agua.\n\nLos códigos ADR salen en más de 100 exámenes oficiales de bombero.\n\n📌 Guárdalo y repásalo antes del examen.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #ADR #mercanciaspeligrosas #examenbombero #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393154930"
+    },
+    {
+      "id": "apunte_c_entidades",
+      "fecha": "2026-10-22 18:00",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/posts_es/c_entidades-1.jpg",
+        "media/posts_es/c_entidades-2.jpg",
+        "media/posts_es/c_entidades-3.jpg",
+        "media/posts_es/c_entidades-4.jpg",
+        "media/posts_es/c_entidades-5.jpg"
+      ],
+      "texto": "18 exámenes de bombero han preguntado esto 🏛️\n\n«Son entidades locales territoriales…» Murcia, León, Oviedo, Motril…\n\nComenta tu respuesta y desliza 👉 Solución, el truco M·P·I y las 4 que te meten para que falles (comarcas, áreas metropolitanas, mancomunidades…).\n\n📌 Guárdalo para tu repaso de régimen local.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #regimenlocal #LBRL #examenbombero #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155137"
+    },
+    {
       "id": "c06_pirolisis",
       "fecha": "2026-10-23 10:00",
       "tipo": "carrusel",
@@ -54,6 +122,46 @@
       "ia": false,
       "estado": "pendiente",
       "pregunta_id": "bf-exam-pb-6a1a740f82305297-q-0068"
+    },
+    {
+      "id": "apunte_a_triaje",
+      "fecha": "2026-10-23 18:00",
+      "tipo": "imagen",
+      "imagenes": [
+        "media/posts_es/a_triaje-1.jpg"
+      ],
+      "texto": "Triaje START en 4 pasos 🚑\n\n¿Camina? Verde. ¿No respira tras abrir la vía aérea? Negro. Respiración > 30, relleno capilar > 2 s o no obedece? Rojo. El resto, amarillo.\n\nHa caído en 16 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de primeros auxilios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Calrosfking, Wikimedia Commons (dominio público)\n\n#oposicionesbombero #triaje #primerosauxilios #examenbombero #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155160"
+    },
+    {
+      "id": "apunte_c_rollover",
+      "fecha": "2026-10-24 18:00",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/posts_es/c_rollover-1.jpg",
+        "media/posts_es/c_rollover-2.jpg",
+        "media/posts_es/c_rollover-3.jpg",
+        "media/posts_es/c_rollover-4.jpg",
+        "media/posts_es/c_rollover-5.jpg"
+      ],
+      "texto": "26 exámenes de bombero han preguntado por el rollover 🔥\n\n«¿En qué fase se desarrolla el rollover?» A Coruña, Almería, Fuengirola, La Carolina…\n\nComenta A, B, C o D y desliza 👉 Solución y la tabla rollover · flashover · backdraft para no volver a confundirlos.\n\n📌 Guárdalo para tu repaso de incendios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #rollover #flashover #incendios #examenbombero #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155565"
+    },
+    {
+      "id": "apunte_a_constitucion",
+      "fecha": "2026-10-25 18:00",
+      "tipo": "imagen",
+      "imagenes": [
+        "media/posts_es/a_constitucion-1.jpg"
+      ],
+      "texto": "La Constitución en números 📕\n\n169 artículos. Título preliminar + 10 títulos. 4 disposiciones adicionales, 9 transitorias, 1 derogatoria y 1 final.\n\nLas preguntas sobre su estructura caen en más de 50 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de la CE.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #constitucionespañola #opositores #examenbombero #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155180"
     },
     {
       "id": "c07_calor-agua",
@@ -74,6 +182,22 @@
       "pregunta_id": "bf-exam-pb-6a1a740f82305297-q-0073"
     },
     {
+      "id": "apunte_c_diferencial",
+      "fecha": "2026-10-26 18:00",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/posts_es/c_diferencial-1.jpg",
+        "media/posts_es/c_diferencial-2.jpg",
+        "media/posts_es/c_diferencial-3.jpg",
+        "media/posts_es/c_diferencial-4.jpg",
+        "media/posts_es/c_diferencial-5.jpg"
+      ],
+      "texto": "La pregunta de electricidad que ha caído en 30 exámenes de bombero ⚡\n\n«¿Qué protección actúa en caso de derivación a masa?» Soria, Valladolid, Lugo, Málaga…\n\nComenta tu respuesta y desliza 👉 Solución y la tabla diferencial · magnetotérmico · ICP para no liarte nunca más.\n\n📌 Guárdalo para tu repaso de electricidad.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #electricidad #examenbombero #opositores #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155195"
+    },
+    {
       "id": "c08_alfabeto-icao",
       "fecha": "2026-10-27 10:00",
       "tipo": "carrusel",
@@ -90,6 +214,34 @@
       "ia": false,
       "estado": "pendiente",
       "pregunta_id": "bf-exam-pb-6a1a740f82305297-q-0117"
+    },
+    {
+      "id": "apunte_c_motobombas",
+      "fecha": "2026-10-27 18:00",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/posts_es/c_motobombas-1.jpg",
+        "media/posts_es/c_motobombas-2.jpg",
+        "media/posts_es/c_motobombas-3.jpg",
+        "media/posts_es/c_motobombas-4.jpg",
+        "media/posts_es/c_motobombas-5.jpg"
+      ],
+      "texto": "Las motobombas han salido en 24 exámenes de bombero 🚒\n\n¿En cuál prima la presión y en cuál el caudal? Cádiz, A Coruña, Toledo, La Carolina…\n\nComenta tu respuesta y desliza 👉 Solución y el truco para no liarte nunca.\n\n📌 Guárdalo para tu repaso de hidráulica.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #hidraulica #motobombas #examenbombero #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155585"
+    },
+    {
+      "id": "apunte_a_glasgow",
+      "fecha": "2026-10-28 18:00",
+      "tipo": "imagen",
+      "imagenes": [
+        "media/posts_es/a_glasgow-1.jpg"
+      ],
+      "texto": "Escala de Glasgow en 10 segundos 🧠\n\nOcular 1-4 · Verbal 1-5 · Motora 1-6. Total de 3 a 15. 8 o menos = TCE grave.\n\nHa caído en 16 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de primeros auxilios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Calrosfking, Wikimedia Commons (dominio público)\n\n#oposicionesbombero #glasgow #primerosauxilios #examenbombero #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155602"
     },
     {
       "id": "c09_nudo-ocho",
@@ -110,6 +262,22 @@
       "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0050"
     },
     {
+      "id": "apunte_c_pleno",
+      "fecha": "2026-10-29 18:00",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/posts_es/c_pleno-1.jpg",
+        "media/posts_es/c_pleno-2.jpg",
+        "media/posts_es/c_pleno-3.jpg",
+        "media/posts_es/c_pleno-4.jpg",
+        "media/posts_es/c_pleno-5.jpg"
+      ],
+      "texto": "13 exámenes de bombero han preguntado por la Diputación 🏛️\n\n«El Pleno de la Diputación está constituido por…» Sevilla, Valladolid, Huelva, Ciudad Real…\n\nComenta tu respuesta y desliza 👉 Solución y la diferencia Ayuntamiento vs Diputación.\n\n📌 Guárdalo para tu repaso de régimen local.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #regimenlocal #diputacion #examenbombero #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155756"
+    },
+    {
       "id": "c10_agua-4-grados",
       "fecha": "2026-10-30 10:00",
       "tipo": "carrusel",
@@ -126,6 +294,30 @@
       "ia": false,
       "estado": "pendiente",
       "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0075"
+    },
+    {
+      "id": "apunte_a_presion",
+      "fecha": "2026-10-30 18:00",
+      "tipo": "imagen",
+      "imagenes": [
+        "media/posts_es/a_presion-1.jpg"
+      ],
+      "texto": "Unidades de presión que tienes que saberte 💧\n\n1 bar = 100 kPa ≈ 10,2 m.c.a. · 1 atm = 1,013 bar = 760 mm Hg · cada 10 m de agua, ~1 bar.\n\nLas conversiones de presión salen en más de 50 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de hidráulica.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #hidraulica #presion #examenbombero #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155771"
+    },
+    {
+      "id": "apunte_a_extintores",
+      "fecha": "2026-10-31 18:00",
+      "tipo": "imagen",
+      "imagenes": [
+        "media/posts_es/a_extintores-1.jpg"
+      ],
+      "texto": "Qué agente extintor para cada fuego 🧯\n\nAgua: A · Espuma: A y B · Polvo ABC: A, B y C · CO₂: B y eléctricos · Polvo especial: D · Agente F: aceites.\n\nLos agentes extintores salen en más de 100 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de incendios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #extintores #incendios #examenbombero #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "origen": "metricool:393155795"
     },
     {
       "id": "c11_hipotermia",
