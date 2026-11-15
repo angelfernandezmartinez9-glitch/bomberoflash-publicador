@@ -11,6 +11,11 @@ Modos:
   python publicador/publicar.py --comprobar  comprueba el token y el cupo diario
   python publicador/publicar.py --renovar    renueva el token y lo deja en el fichero TOKEN_OUT
 
+Tipos de entrada en cola.json ("tipo"):
+  imagen / carrusel  "imagenes": 1 a 10 JPG y "texto"
+  historia           "imagenes": [un JPG] o "video": "media/....mp4" (sin texto: Instagram no lo admite)
+  reel               "video": "media/....mp4" y "texto"; "solo_reels": true para no sacarlo en el feed
+
 Variables de entorno:
   IG_ACCESS_TOKEN    token de larga duración de la cuenta de Instagram (obligatorio salvo al simular)
   IG_USER_ID         id de la cuenta de Instagram (si falta, se consulta)
@@ -32,7 +37,17 @@ from zoneinfo import ZoneInfo
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COLA = os.path.join(RAIZ, "cola.json")
-API = "https://graph.instagram.com/" + os.environ.get("IG_API_VERSION", "v23.0")
+VERSION = os.environ.get("IG_API_VERSION", "v23.0")
+
+
+def es_token_facebook():
+    """Los tokens del inicio de sesión unificado/Facebook empiezan por EAA y van por graph.facebook.com."""
+    return os.environ.get("IG_ACCESS_TOKEN", "").strip().startswith("EAA")
+
+
+def api():
+    host = "graph.facebook.com" if es_token_facebook() else "graph.instagram.com"
+    return f"https://{host}/{VERSION}"
 MAX_INTENTOS = 3
 
 
@@ -42,12 +57,12 @@ class ErrorInstagram(Exception):
 
 def llamar(metodo, ruta, **params):
     """Llama a la API de Instagram y devuelve el JSON de la respuesta."""
-    token = os.environ.get("IG_ACCESS_TOKEN", "")
+    token = os.environ.get("IG_ACCESS_TOKEN", "").strip()
     if not token:
         raise ErrorInstagram("Falta IG_ACCESS_TOKEN (el secreto de GitHub con el token de Instagram).")
     params["access_token"] = token
     datos = urllib.parse.urlencode(params).encode()
-    url = ruta if ruta.startswith("http") else f"{API}/{ruta}"
+    url = ruta if ruta.startswith("http") else f"{api()}/{ruta}"
     if metodo == "GET":
         peticion = urllib.request.Request(f"{url}?{datos.decode()}")
     else:
@@ -68,6 +83,8 @@ def id_cuenta():
     uid = os.environ.get("IG_USER_ID", "").strip()
     if uid:
         return uid
+    if es_token_facebook():
+        raise ErrorInstagram("Con este tipo de token hace falta el secreto IG_USER_ID (el ID de Instagram).")
     return str(llamar("GET", "me", fields="user_id")["user_id"])
 
 
@@ -96,20 +113,45 @@ def url_publica(ruta):
     return base.rstrip("/") + "/" + urllib.parse.quote(ruta.lstrip("/"))
 
 
+def es_video(ruta):
+    return ruta.lower().rsplit(".", 1)[-1] in ("mp4", "mov")
+
+
+def contenedor_simple(uid, url, **extra):
+    """Crea el contenedor de una imagen o un vídeo sueltos (post, historia o reel)."""
+    if es_video(url):
+        return llamar("POST", f"{uid}/media", video_url=url, **extra)["id"]
+    return llamar("POST", f"{uid}/media", image_url=url, **extra)["id"]
+
+
 def publicar_post(post, uid):
-    imagenes = [url_publica(r) for r in post["imagenes"]]
-    if not 1 <= len(imagenes) <= 10:
-        raise ErrorInstagram("Un post necesita entre 1 y 10 imágenes.")
-    if len(imagenes) == 1:
-        contenedor = llamar("POST", f"{uid}/media", image_url=imagenes[0], caption=post["texto"])["id"]
+    tipo = post.get("tipo", "imagen")
+    if tipo == "reel":
+        video = url_publica(post["video"])
+        contenedor = llamar("POST", f"{uid}/media", media_type="REELS", video_url=video,
+                            caption=post.get("texto", ""),
+                            share_to_feed="false" if post.get("solo_reels") else "true")["id"]
+        esperar_contenedor(contenedor, maximo=600)
+    elif tipo == "historia":
+        # Una historia no lleva texto: lo que se quiera decir va dentro de la imagen o el vídeo.
+        ruta = post.get("video") or post["imagenes"][0]
+        contenedor = contenedor_simple(uid, url_publica(ruta), media_type="STORIES")
+        esperar_contenedor(contenedor, maximo=600 if es_video(ruta) else 120)
     else:
-        hijos = []
-        for url in imagenes:
-            hijo = llamar("POST", f"{uid}/media", image_url=url, is_carousel_item="true")["id"]
-            esperar_contenedor(hijo)
-            hijos.append(hijo)
-        contenedor = llamar("POST", f"{uid}/media", media_type="CAROUSEL",
-                            children=",".join(hijos), caption=post["texto"])["id"]
+        imagenes = [url_publica(r) for r in post["imagenes"]]
+        if not 1 <= len(imagenes) <= 10:
+            raise ErrorInstagram("Un post necesita entre 1 y 10 imágenes.")
+        if len(imagenes) == 1:
+            contenedor = llamar("POST", f"{uid}/media", image_url=imagenes[0], caption=post["texto"])["id"]
+        else:
+            hijos = []
+            for url in imagenes:
+                hijo = llamar("POST", f"{uid}/media", image_url=url, is_carousel_item="true")["id"]
+                esperar_contenedor(hijo)
+                hijos.append(hijo)
+            contenedor = llamar("POST", f"{uid}/media", media_type="CAROUSEL",
+                                children=",".join(hijos), caption=post["texto"])["id"]
+        esperar_contenedor(contenedor)
     esperar_contenedor(contenedor)
     media_id = llamar("POST", f"{uid}/media_publish", creation_id=contenedor)["id"]
     try:
@@ -182,8 +224,9 @@ def modo_publicar(simular=False):
     fallos = 0
     for post in listos[:maximo]:
         if simular:
-            resumen(f"[simulación] {post['fecha']} · {post['id']} · {len(post['imagenes'])} imagen(es)")
-            for r in post["imagenes"]:
+            archivos = [post["video"]] if post.get("video") else post.get("imagenes", [])
+            resumen(f"[simulación] {post['fecha']} · {post.get('tipo', 'imagen')} · {post['id']} · {len(archivos)} archivo(s)")
+            for r in archivos:
                 print("   ", url_publica(r) if os.environ.get("MEDIA_BASE_URL") or os.environ.get("GITHUB_REPOSITORY") else r)
             continue
         try:
@@ -204,8 +247,15 @@ def modo_publicar(simular=False):
 
 
 def modo_comprobar():
-    yo = llamar("GET", "me", fields="user_id,username")
-    uid = os.environ.get("IG_USER_ID") or yo["user_id"]
+    uid = os.environ.get("IG_USER_ID", "").strip()
+    if es_token_facebook():
+        if not uid:
+            raise ErrorInstagram("Con este tipo de token hace falta el secreto IG_USER_ID (el ID de Instagram).")
+        yo = llamar("GET", uid, fields="username")
+        yo["user_id"] = uid
+    else:
+        yo = llamar("GET", "me", fields="user_id,username")
+        uid = uid or yo["user_id"]
     cupo = llamar("GET", f"{uid}/content_publishing_limit", fields="quota_usage,config")
     usado = cupo.get("data", [{}])[0]
     resumen(f"Token válido para @{yo.get('username')} (id {yo.get('user_id')}).")
@@ -220,6 +270,9 @@ def modo_comprobar():
 def modo_renovar():
     if not os.environ.get("IG_ACCESS_TOKEN", "").strip():
         resumen("Todavía no hay token de Instagram: nada que renovar.")
+        return 0
+    if es_token_facebook():
+        resumen("El token es de usuario del sistema o de Facebook: no caduca o no se renueva así. Nada que hacer.")
         return 0
     r = llamar("GET", "https://graph.instagram.com/refresh_access_token", grant_type="ig_refresh_token")
     nuevo = r["access_token"]
