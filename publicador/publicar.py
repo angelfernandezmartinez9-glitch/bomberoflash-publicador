@@ -202,7 +202,8 @@ def hay_atraso_reciente(cola, listos):
     primero = datetime.strptime(listos[0]["fecha"], "%Y-%m-%d %H:%M").replace(tzinfo=zona)
     if (ahora - primero).total_seconds() < 2 * 3600:
         return False
-    fechas = [datetime.fromisoformat(p["publicado_en"]) for p in cola["posts"] if p.get("publicado_en")]
+    fechas = [datetime.fromisoformat(p["publicado_en"]) for p in cola["posts"]
+              if p.get("publicado_en") and p.get("tipo") != "historia"]
     return bool(fechas) and (ahora - max(fechas)).total_seconds() < 20 * 3600
 
 
@@ -213,8 +214,14 @@ def modo_publicar(simular=False):
     if not listos:
         resumen("No hay nada que publicar ahora.")
         return 0
-    if hay_atraso_reciente(cola, listos):
-        resumen(f"Hay {len(listos)} post(s) atrasados; el siguiente saldrá cuando pasen 20 h desde el último.")
+    # Las historias van aparte: salen todas las que toquen, en orden, y no cuentan para el límite.
+    historias = [p for p in listos if p.get("tipo") == "historia"]
+    feed = [p for p in listos if p.get("tipo") != "historia"]
+    if feed and hay_atraso_reciente(cola, feed):
+        resumen(f"Hay {len(feed)} post(s) atrasados; el siguiente saldrá cuando pasen 20 h desde el último.")
+        feed = []
+    listos = historias + feed[:maximo]
+    if not listos:
         return 0
     if not simular and not os.environ.get("IG_ACCESS_TOKEN", "").strip():
         # Aún sin conectar Instagram (CONFIGURAR.md): esperar sin dar error cada hora.
@@ -222,7 +229,7 @@ def modo_publicar(simular=False):
         return 0
     uid = None if simular else id_cuenta()
     fallos = 0
-    for post in listos[:maximo]:
+    for post in listos:
         if simular:
             archivos = [post["video"]] if post.get("video") else post.get("imagenes", [])
             resumen(f"[simulación] {post['fecha']} · {post.get('tipo', 'imagen')} · {post['id']} · {len(archivos)} archivo(s)")

@@ -646,6 +646,54 @@
       "ia": false,
       "estado": "pendiente",
       "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "historia_humo_1",
+      "fecha": "2026-11-15 18:25",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-15/humo-1.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone."
+    },
+    {
+      "id": "historia_humo_2",
+      "fecha": "2026-11-15 18:26",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-15/humo-2.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone."
+    },
+    {
+      "id": "historia_humo_3",
+      "fecha": "2026-11-15 18:27",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-15/humo-3.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone."
+    },
+    {
+      "id": "historia_humo_4",
+      "fecha": "2026-11-15 18:28",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-15/humo-4.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone."
     }
   ]
 }
