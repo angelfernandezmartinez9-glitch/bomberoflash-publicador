@@ -3,8 +3,8 @@ name: Publicar en Instagram
 on:
   # Activo. Mientras no esté el token de Instagram (CONFIGURAR.md), cada ejecución termina sin hacer nada.
   schedule:
-    # Cada hora, en el minuto 7. Publica los posts de cola.json cuya hora ya ha llegado.
-    - cron: "7 * * * *"
+    # Cada 15 minutos (minutos 2, 17, 32 y 47): un post de las 13:30 sale hacia las 13:32.
+    - cron: "2,17,32,47 * * * *"
   workflow_dispatch:
     inputs:
       modo:
