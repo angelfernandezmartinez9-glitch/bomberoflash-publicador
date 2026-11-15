@@ -687,6 +687,39 @@
       "instagram_id": "17925332661223191",
       "enlace": "https://www.instagram.com/stories/bombero_flash/4031092763466249165",
       "publicado_en": "2026-11-15T18:28+01:00"
+    },
+    {
+      "id": "reel_09_ventilacion",
+      "fecha": "2026-11-16 10:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-09-ventilacion.mp4",
+      "imagenes": [],
+      "texto": "Pregunta de examen de bombero en España 🇪🇸: una casa llena de humo… ¿enciendes el VENTILADOR o abres primero la VENTANA? 💨🪟\nComenta A o B antes de ver el final 👀\n\nRespuesta: la ventana. Primero se abre la salida del humo y después se arranca el ventilador.\n📐 La salida tiene que ser entre 1 y 2 veces más grande que la entrada.\n💨 La ventilación por presión positiva empuja el humo hasta 300 metros.\n✖️2 Es el doble de efectiva que extraer el humo.\n🌀 ¿Dos ventiladores? El turbo delante, pegado a la puerta, y el motoventilador detrás.\n\nCayó en Toledo (2025), Granada (2025) y Valladolid (2016). Y la ventilación sale en más de 120 exámenes de bombero.\n¿Y tú, de qué comunidad opositas? 👇\n\n💬 Comenta AIRE y te mando gratis todas sus preguntas de examen.\n\nFuentes: exámenes de Bombero de Almería Poniente 2023 (primer paso: abrir la salida de gases) y Toledo 2025 (abrir un exutorio antes de arrancar el ventilador); Linares 2019 (salida entre 1 y 2 veces la entrada; efectiva hasta 300 m; turboventilador delante y motoventilador detrás); Almería Poniente 2010 y Granada 2025 (la positiva es el doble de efectiva que la negativa); Valladolid 2016 (turboventilador delante y motoventilador detrás).\n\n#bomberos #oposicionesbombero #ventilacion #oposicionesespaña #bombero",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "AIRE"
+    },
+    {
+      "id": "reel_10_backdraft_v2",
+      "fecha": "2026-11-17 10:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-10-backdraft-v2.mp4",
+      "imagenes": [],
+      "texto": "Eres bombero en España 🇪🇸 y vas a entrar en un incendio. Esta puerta respira humo… ¿la ABRES o NO? 🚪💨\nComenta A o B antes de ver el final 👀\n\nRespuesta: ¡ni se te ocurra! Puede ser un BACKDRAFT 💥\nLas señales:\n🔥 Casi no hay llamas\n🟡 Humo espeso y amarillento\n⬛ Cristales ennegrecidos\n🌡️ El pomo, caliente\n🫁 El humo entra y sale por las rendijas, como si el fuego respirara\nDentro falta oxígeno: al abrir entra aire de golpe… y explota.\n\n⚠️ Trampa de examen: si ves llamas corriendo por el techo, eso no es señal de backdraft, es de flashover.\n\nCayó en Cádiz (2022), Granada (2025) y Salamanca (2022). Y el backdraft sale en más de 80 exámenes de bombero.\n¿Y tú, de qué comunidad opositas? 👇\n\n💬 Comenta PUERTA y te mando gratis todas sus preguntas de examen.\n\nFuentes: exámenes de Bombero de Cádiz 2022 y Consorcio de Cádiz 2023 («parece que respira y exhala» = backdraft); Diputación de Granada 2025 (síntomas del backdraft; deflagración por un aporte súbito de aire en un espacio confinado); Ayuntamiento de Salamanca 2022 (humo denso sin llama, cristales ennegrecidos, entrada y expulsión de aire = backdraft); Dos Hermanas 2025 (las llamas que corren bajo el techo NO son señal de backdraft). Norma UNE-EN ISO 13943.\n\n#bomberos #oposicionesbombero #backdraft #oposicionesespaña #bombero",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "PUERTA"
+    },
+    {
+      "id": "reel_06_monoxido",
+      "fecha": "2026-11-18 10:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-06-monoxido.mp4",
+      "imagenes": [],
+      "texto": "Si respiras este gas… ¿te pones AZUL o ROJO CEREZA? 🔵🍒\nComenta A o B antes de ver el final 👀\n\nRespuesta: rojo cereza. Es el monóxido de carbono (CO).\n🩸 La hemoglobina lo coge unas 250 veces antes que al oxígeno: forma carboxihemoglobina y la sangre deja de llevar oxígeno.\n👃❌ No huele, no se ve y no irrita: por eso lo llaman «la muerte dulce».\n☠️ Con un 0,4 % en el aire (4.000 ppm): colapso y muerte en pocos minutos.\n\nLo de las 250 veces cayó en el examen de Bombero de Navarra (2017). Y el monóxido sale en más de 100 exámenes de bombero.\n\n💬 Comenta CO y te mando gratis todas las preguntas de examen del monóxido.\n\nFuentes: exámenes de Bombero de Navarra 2017 (afinidad, 250 veces), Zaragoza 2017 (entre 200 y 300 veces), Madrid 2021 (4.000 ppm) y Ciudad Real 2017 (sin olor y no irritante). Manual MSD, «Envenenamiento con monóxido de carbono»: https://www.msdmanuals.com/es/professional/lesiones-y-envenenamientos/intoxicaci%C3%B3n/envenenamiento-con-mon%C3%B3xido-de-carbono\n\n#bombero #oposicionesbombero #bomberos #monoxido #oposiciones",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "CO"
     }
   ]
 }
