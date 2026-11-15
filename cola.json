@@ -656,8 +656,11 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone."
+      "estado": "publicado",
+      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone.",
+      "instagram_id": "18037426517854262",
+      "enlace": "https://www.instagram.com/stories/bombero_flash/4031092423106875624",
+      "publicado_en": "2026-11-15T18:28+01:00"
     },
     {
       "id": "historia_humo_2",
@@ -668,8 +671,11 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone."
+      "estado": "publicado",
+      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone.",
+      "instagram_id": "18122975750280072",
+      "enlace": "https://www.instagram.com/stories/bombero_flash/4031092537946924278",
+      "publicado_en": "2026-11-15T18:28+01:00"
     },
     {
       "id": "historia_humo_3",
@@ -680,8 +686,11 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone."
+      "estado": "publicado",
+      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone.",
+      "instagram_id": "17976624057152333",
+      "enlace": "https://www.instagram.com/stories/bombero_flash/4031092648483613211",
+      "publicado_en": "2026-11-15T18:28+01:00"
     },
     {
       "id": "historia_humo_4",
@@ -692,8 +701,11 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone."
+      "estado": "publicado",
+      "nota": "Historias «El humo» v2. La 3 iba con sticker de cuestionario y la 4 con sticker de enlace: la API no los pone.",
+      "instagram_id": "17925332661223191",
+      "enlace": "https://www.instagram.com/stories/bombero_flash/4031092763466249165",
+      "publicado_en": "2026-11-15T18:28+01:00"
     }
   ]
 }
