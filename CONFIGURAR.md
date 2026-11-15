@@ -18,10 +18,10 @@ La cuenta @bombero_flash ya es profesional (Metricool la usa), así que vale tal
 2. Pulsa **Crear app**.
 3. Nombre: `BomberoFlash Publicador`. Correo: el tuyo.
 4. Caso de uso: **Gestionar mensajes y contenido en Instagram** (en inglés, *Manage messaging & content on Instagram*). Crea la app.
-5. En el panel de la app, entra en **Casos de uso › Instagram › Configuración de la API con inicio de sesión para empresas de Instagram** (*API setup with Instagram business login*).
+5. En el panel de la app, entra en **Casos de uso › Instagram › API setup with Unified login**. Desde noviembre de 2026 Meta pide conectar un **porfolio empresarial**: se creó «Bombero Flash» (sin verificar, no hace falta para tu propia cuenta).
 6. En **Generar tokens de acceso**, pulsa **Añadir cuenta**, entra con @bombero_flash y acepta los permisos, sobre todo **instagram_business_content_publish**.
    - Si te pide añadir la cuenta como **tester de Instagram**: en **Roles de la app › Roles › Testers de Instagram** añade `bombero_flash`. Después acepta la invitación desde Instagram en la web: **Configuración › Apps y sitios web › Invitaciones de tester**.
-7. Junto a la cuenta verás su **ID de Instagram** (un número largo) y un botón **Generar token**. Copia las dos cosas en un sitio seguro. **No las mandes por el chat.**
+7. Junto a la cuenta verás su **ID de Instagram** (un número largo) y un botón **Generar identificador**. El publicador acepta tanto el token de Instagram (empieza por `IGAA`) como el de Facebook o de usuario del sistema (empieza por `EAA`; con este, `IG_USER_ID` es obligatorio). Copia las dos cosas en un sitio seguro. **No las mandes por el chat.**
 
 La app puede quedarse en **modo desarrollo**: como la cuenta es tuya y eres administrador, no hace falta que Meta la revise. Si alguna vez Meta pidiera revisión, la publicación sigue por Metricool mientras tanto.
 
