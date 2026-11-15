@@ -3,16 +3,15 @@
   "posts": [
     {
       "id": "apunte_a_tetraedro",
-      "fecha": "2026-10-18 18:00",
+      "fecha": "2026-11-17 19:30",
       "tipo": "imagen",
       "imagenes": [
         "media/posts_es/a_tetraedro-1.jpg"
       ],
-      "texto": "El tetraedro del fuego y cómo se rompe cada lado 🔥\n\nCombustible → eliminación. Oxígeno → sofocación. Calor → enfriamiento. Reacción en cadena → inhibición.\n\nHa caído en 33 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de incendios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #tetraedrodelfuego #incendios #examenbombero #bomberos #bomberoflash",
+      "texto": "El tetraedro del fuego y cómo se rompe cada lado 🔥\n\nCombustible → eliminación. Oxígeno → sofocación. Calor → enfriamiento. Reacción en cadena → inhibición.\n\nHa caído en 33 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de incendios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #tetraedrodelfuego #incendios #bomberos #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "origen": "metricool:393155495",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "origen": "metricool:393155495"
     },
     {
       "id": "apunte_a_rcp",
@@ -29,7 +28,7 @@
     },
     {
       "id": "c04_asistolia",
-      "fecha": "2026-10-20 10:00",
+      "fecha": "2026-11-16 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c04_asistolia-1.jpg",
@@ -40,11 +39,10 @@
         "media/c04_asistolia-6.jpg",
         "media/c04_asistolia-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2017).\n\nNO es desfibrilable el ritmo de:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2017).\n\nNO es desfibrilable el ritmo de:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-f81bc49d710fcd74-q-0123",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-f81bc49d710fcd74-q-0123"
     },
     {
       "id": "apunte_c_empleados",
@@ -65,7 +63,7 @@
     },
     {
       "id": "c05_caudal-critico",
-      "fecha": "2026-10-21 10:00",
+      "fecha": "2026-11-18 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c05_caudal-critico-1.jpg",
@@ -76,11 +74,10 @@
         "media/c05_caudal-critico-6.jpg",
         "media/c05_caudal-critico-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2021).\n\nAl mínimo caudal disponible para conseguir la extinción de un incendio se le denomina:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2021).\n\nAl mínimo caudal disponible para conseguir la extinción de un incendio se le denomina:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-29c59f8c1bd6d7d6-q-0074",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-29c59f8c1bd6d7d6-q-0074"
     },
     {
       "id": "apunte_a_adr",
@@ -114,7 +111,7 @@
     },
     {
       "id": "c06_pirolisis",
-      "fecha": "2026-10-23 10:00",
+      "fecha": "2026-11-19 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c06_pirolisis-1.jpg",
@@ -125,11 +122,10 @@
         "media/c06_pirolisis-6.jpg",
         "media/c06_pirolisis-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2022).\n\n¿Cómo se denomina a la descomposición de una sustancia por el calor?:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2022).\n\n¿Cómo se denomina a la descomposición de una sustancia por el calor?:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-6a1a740f82305297-q-0068",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-6a1a740f82305297-q-0068"
     },
     {
       "id": "apunte_a_triaje",
@@ -176,7 +172,7 @@
     },
     {
       "id": "c07_calor-agua",
-      "fecha": "2026-10-26 10:00",
+      "fecha": "2026-11-21 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c07_calor-agua-1.jpg",
@@ -187,11 +183,10 @@
         "media/c07_calor-agua-6.jpg",
         "media/c07_calor-agua-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2022).\n\n¿Qué cantidad de calor se necesita para llevar un litro de agua de 20ºC de temperatura a 100ºC de temperatura? Señale la opción correcta:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2022).\n\n¿Qué cantidad de calor se necesita para llevar un litro de agua de 20ºC de temperatura a 100ºC de temperatura? Señale la opción correcta:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-6a1a740f82305297-q-0073",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-6a1a740f82305297-q-0073"
     },
     {
       "id": "apunte_c_diferencial",
@@ -212,7 +207,7 @@
     },
     {
       "id": "c08_alfabeto-icao",
-      "fecha": "2026-10-27 10:00",
+      "fecha": "2026-11-22 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c08_alfabeto-icao-1.jpg",
@@ -223,11 +218,10 @@
         "media/c08_alfabeto-icao-6.jpg",
         "media/c08_alfabeto-icao-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2022).\n\nSegún el Código Fonético Internacional ICAO, utilizado para las comunicaciones por radio, ¿Cuál de las siguientes secuencias es la correcta?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2022).\n\nSegún el Código Fonético Internacional ICAO, utilizado para las comunicaciones por radio, ¿Cuál de las siguientes secuencias es la correcta?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-6a1a740f82305297-q-0117",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-6a1a740f82305297-q-0117"
     },
     {
       "id": "apunte_c_motobombas",
@@ -261,7 +255,7 @@
     },
     {
       "id": "c09_nudo-ocho",
-      "fecha": "2026-10-29 10:00",
+      "fecha": "2026-11-23 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c09_nudo-ocho-1.jpg",
@@ -272,11 +266,10 @@
         "media/c09_nudo-ocho-6.jpg",
         "media/c09_nudo-ocho-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2023).\n\n¿Cuál es la pérdida de resistencia del nudo de amarre ocho por seno?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2023).\n\n¿Cuál es la pérdida de resistencia del nudo de amarre ocho por seno?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0050",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0050"
     },
     {
       "id": "apunte_c_pleno",
@@ -297,7 +290,7 @@
     },
     {
       "id": "c10_agua-4-grados",
-      "fecha": "2026-10-30 10:00",
+      "fecha": "2026-11-24 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c10_agua-4-grados-1.jpg",
@@ -308,11 +301,10 @@
         "media/c10_agua-4-grados-6.jpg",
         "media/c10_agua-4-grados-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2023).\n\n¿A qué temperatura alcanza el agua su máxima densidad?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2023).\n\n¿A qué temperatura alcanza el agua su máxima densidad?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0075",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0075"
     },
     {
       "id": "apunte_a_presion",
@@ -329,20 +321,19 @@
     },
     {
       "id": "apunte_a_extintores",
-      "fecha": "2026-10-31 18:00",
+      "fecha": "2026-11-20 19:30",
       "tipo": "imagen",
       "imagenes": [
         "media/posts_es/a_extintores-1.jpg"
       ],
-      "texto": "Qué agente extintor para cada fuego 🧯\n\nAgua: A · Espuma: A y B · Polvo ABC: A, B y C · CO₂: B y eléctricos · Polvo especial: D · Agente F: aceites.\n\nLos agentes extintores salen en más de 100 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de incendios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #extintores #incendios #examenbombero #bomberos #bomberoflash",
+      "texto": "Qué agente extintor para cada fuego 🧯\n\nAgua: A · Espuma: A y B · Polvo ABC: A, B y C · CO₂: B y eléctricos · Polvo especial: D · Agente F: aceites.\n\nLos agentes extintores salen en más de 100 exámenes oficiales de bombero.\n\n📌 Guárdalo para tu repaso de incendios.\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n📷 Foto: Ayuntamiento de Madrid (CC BY 4.0)\n\n#oposicionesbombero #extintores #incendios #bomberos #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "origen": "metricool:393155795",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "origen": "metricool:393155795"
     },
     {
       "id": "c11_hipotermia",
-      "fecha": "2026-11-02 10:00",
+      "fecha": "2026-11-25 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c11_hipotermia-1.jpg",
@@ -353,27 +344,25 @@
         "media/c11_hipotermia-6.jpg",
         "media/c11_hipotermia-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2023).\n\n¿Qué temperatura consideramos como una hipotermia grave?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2023).\n\n¿Qué temperatura consideramos como una hipotermia grave?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0119",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0119"
     },
     {
       "id": "f1_casco",
-      "fecha": "2026-11-03 10:00",
+      "fecha": "2026-11-27 13:30",
       "tipo": "imagen",
       "imagenes": [
         "media/f1_casco-1.jpg"
       ],
       "texto": "Nadie te va a regalar el casco. Se gana pregunta a pregunta.\n\nHoy toca estudio, aunque no apetezca.\n\n#oposicionesbombero #bomberos #opositores #motivacion #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente"
     },
     {
       "id": "c12_adr-606",
-      "fecha": "2026-11-04 10:00",
+      "fecha": "2026-11-26 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c12_adr-606-1.jpg",
@@ -384,27 +373,25 @@
         "media/c12_adr-606-6.jpg",
         "media/c12_adr-606-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Suboficial de Navarra (2024).\n\nSegún el ADR, una sustancia con un nº de identificación de peligro 606:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Suboficial de Navarra (2024).\n\nSegún el ADR, una sustancia con un nº de identificación de peligro 606:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": true,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-d1ea48f4c6cbe334-q-0027",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-d1ea48f4c6cbe334-q-0027"
     },
     {
       "id": "f2_se-entrena",
-      "fecha": "2026-11-05 10:00",
+      "fecha": "2026-11-28 13:30",
       "tipo": "imagen",
       "imagenes": [
         "media/f2_se-entrena-1.jpg"
       ],
-      "texto": "El examen no se improvisa. Se entrena.\n\nLo que repites cada día es lo que te sale el día de la prueba.\n\n¿Quieres que la app te diga qué repasar hoy? Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberos #opositores #disciplina #bomberoflash",
+      "texto": "El examen no se improvisa. Se entrena.\n\nLo que repites cada día es lo que te sale el día de la prueba.\n\n¿Quieres que la app te diga qué repasar hoy? 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberos #opositores #disciplina #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente"
     },
     {
       "id": "c13_triaje",
-      "fecha": "2026-11-06 10:00",
+      "fecha": "2026-11-29 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c13_triaje-1.jpg",
@@ -415,15 +402,14 @@
         "media/c13_triaje-6.jpg",
         "media/c13_triaje-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2024).\n\n¿Cuál de los siguientes no es un método de triage?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2024).\n\n¿Cuál de los siguientes no es un método de triage?\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-8e4b6033c26f4ba3-q-0119",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-8e4b6033c26f4ba3-q-0119"
     },
     {
       "id": "c14_cte-reaccion-fuego",
-      "fecha": "2026-11-09 10:00",
+      "fecha": "2026-11-27 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c14_cte-reaccion-fuego-1.jpg",
@@ -434,27 +420,25 @@
         "media/c14_cte-reaccion-fuego-6.jpg",
         "media/c14_cte-reaccion-fuego-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2026).\n\nSegún el Código Técnico de la Edificación (CTE-DB SI), una clasificación B-s3, d0 corresponde a:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2026).\n\nSegún el Código Técnico de la Edificación (CTE-DB SI), una clasificación B-s3, d0 corresponde a:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": true,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-d182b4cdb1182e31-q-0056",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-d182b4cdb1182e31-q-0056"
     },
     {
       "id": "f3_7300",
-      "fecha": "2026-11-10 10:00",
+      "fecha": "2026-11-29 13:30",
       "tipo": "imagen",
       "imagenes": [
         "media/f3_7300-1.jpg"
       ],
-      "texto": "20 preguntas al día son 7.300 en un año.\n\nNo hace falta estudiar 8 horas. Hace falta no fallar un día.\n\nEn BomberoFlash tienes tu plan diario de repaso. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberos #opositores #constancia #bomberoflash",
+      "texto": "20 preguntas al día son 7.300 en un año.\n\nNo hace falta estudiar 8 horas. Hace falta no fallar un día.\n\nEn BomberoFlash tienes tu plan diario de repaso. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberos #opositores #constancia #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente"
     },
     {
       "id": "c15_constitucion-art-10",
-      "fecha": "2026-11-11 10:00",
+      "fecha": "2026-11-28 19:30",
       "tipo": "carrusel",
       "imagenes": [
         "media/c15_constitucion-art-10-1.jpg",
@@ -465,35 +449,32 @@
         "media/c15_constitucion-art-10-6.jpg",
         "media/c15_constitucion-art-10-7.jpg"
       ],
-      "texto": "Pregunta del examen oficial de Bombero de Navarra (2023).\n\nDe acuerdo con lo dispuesto en el artículo 10 de la Constitución Española de 1978, es fundamento del orden político y de la paz social:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
+      "texto": "Pregunta del examen oficial de Bombero de Navarra (2023).\n\nDe acuerdo con lo dispuesto en el artículo 10 de la Constitución Española de 1978, es fundamento del orden político y de la paz social:\n\nContesta en comentarios con A, B, C o D antes de mirar la solución. En el carrusel tienes la explicación completa: descartes, resumen, tabla comparativa y una regla para no olvidarla.\n\nGuárdalo para repasar.\n\nEste examen completo, explicado, está en BomberoFlash. 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberosnavarra #examenbombero #opositores #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0090",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente",
+      "pregunta_id": "bf-exam-pb-b57d14b825e817f8-q-0090"
     },
     {
       "id": "f4_no-renuncies",
-      "fecha": "2026-11-12 10:00",
+      "fecha": "2026-11-30 13:30",
       "tipo": "imagen",
       "imagenes": [
         "media/f4_no-renuncies-1.jpg"
       ],
       "texto": "No renuncies a la plaza en la que piensas todos los días.\n\nEtiqueta a quien la está peleando contigo.\n\n#oposicionesbombero #bomberos #opositores #motivacion #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente"
     },
     {
       "id": "f5_la-plaza",
-      "fecha": "2026-11-13 10:00",
+      "fecha": "2026-12-01 13:30",
       "tipo": "imagen",
       "imagenes": [
         "media/f5_la-plaza-1.jpg"
       ],
-      "texto": "La plaza no se gana el día del examen. Se gana cada día que repasas.\n\nHoy toca repaso, aunque sean 20 minutos.\n\n¿Quieres que la app te diga qué repasar cada día? Escríbenos FLASH por privado.\n\n#oposicionesbombero #bomberos #opositores #motivacion #bomberoflash",
+      "texto": "La plaza no se gana el día del examen. Se gana cada día que repasas.\n\nHoy toca repaso, aunque sean 20 minutos.\n\n¿Quieres que la app te diga qué repasar cada día? 💬 Comenta FLASH y te mandamos el acceso por privado.\n\n#oposicionesbombero #bomberos #opositores #motivacion #bomberoflash",
       "ia": false,
-      "estado": "archivado",
-      "nota": "Archivado el 15/11/2026: cola antigua, no publicar (algunos ya salieron a mano)."
+      "estado": "pendiente"
     },
     {
       "id": "carrusel_04-panel-naranja",
