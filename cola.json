@@ -1,5 +1,6 @@
 {
   "zona": "Europe/Madrid",
+  "tiktok_desde": "2026-11-16 00:00",
   "posts": [
     {
       "id": "apunte_a_tetraedro",
@@ -739,6 +740,66 @@
       "ia": false,
       "estado": "pendiente",
       "palabra_linkdm": "CO"
+    },
+    {
+      "id": "tiktok_velocidad-combustion",
+      "fecha": "2026-11-16 20:00",
+      "tipo": "carrusel",
+      "redes": [
+        "tiktok"
+      ],
+      "imagenes": [
+        "media/carruseles-comenta-flash/01-foto-velocidad-combustion_01.jpg",
+        "media/carruseles-comenta-flash/01-foto-velocidad-combustion_02.jpg",
+        "media/carruseles-comenta-flash/01-foto-velocidad-combustion_03.jpg",
+        "media/carruseles-comenta-flash/01-foto-velocidad-combustion_04.jpg",
+        "media/carruseles-comenta-flash/01-foto-velocidad-combustion_05.jpg",
+        "media/carruseles-comenta-flash/01-foto-velocidad-combustion_06.jpg",
+        "media/carruseles-comenta-flash/01-foto-velocidad-combustion_07.jpg"
+      ],
+      "texto": "No todo fuego arde igual 🔥 Lenta, rápida, deflagración y detonación: ¿sabrías decir cuál va más rápido que el sonido?\n\nGuárdalo para repasar teoría del fuego.\n\n💬 Comenta FLASH y te damos acceso a BomberoFlash, con preguntas de exámenes oficiales de bombero.\n\n#oposicionesbombero #teoriadelfuego #bomberos #opositores #bomberoflash",
+      "ia": false,
+      "estado": "solo_tiktok",
+      "nota": "Sale en Instagram por Metricool (15-17/11); aquí solo para TikTok."
+    },
+    {
+      "id": "tiktok_gas-natural",
+      "fecha": "2026-11-16 13:30",
+      "tipo": "carrusel",
+      "redes": [
+        "tiktok"
+      ],
+      "imagenes": [
+        "media/carruseles-comenta-flash/02-ficha-gas-natural_01.jpg",
+        "media/carruseles-comenta-flash/02-ficha-gas-natural_02.jpg",
+        "media/carruseles-comenta-flash/02-ficha-gas-natural_03.jpg",
+        "media/carruseles-comenta-flash/02-ficha-gas-natural_04.jpg",
+        "media/carruseles-comenta-flash/02-ficha-gas-natural_05.jpg",
+        "media/carruseles-comenta-flash/02-ficha-gas-natural_06.jpg"
+      ],
+      "texto": "¿Más gas en el aire significa más peligro? No siempre. El gas natural solo arde entre el 5 % y el 15 % aproximadamente… y ahí está la trampa de la mezcla rica.\n\nGuárdala y pásasela a tu compañero de opo.\n\n💬 Comenta FLASH y te damos acceso a BomberoFlash, con preguntas de exámenes oficiales de bombero.\n\n#oposicionesbombero #teoriadelfuego #bomberos #opositores #bomberoflash",
+      "ia": false,
+      "estado": "solo_tiktok",
+      "nota": "Sale en Instagram por Metricool (15-17/11); aquí solo para TikTok."
+    },
+    {
+      "id": "tiktok_cuenta-gratis",
+      "fecha": "2026-11-17 13:30",
+      "tipo": "carrusel",
+      "redes": [
+        "tiktok"
+      ],
+      "imagenes": [
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_01.jpg",
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_02.jpg",
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_03.jpg",
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_04.jpg",
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_05.jpg"
+      ],
+      "texto": "Puedes empezar a entrenar hoy sin pagar nada: cuenta gratis solo con tu correo y 20 preguntas de examen cada día. Y si lo quieres todo, 7 días gratis con leyes y psicotécnicos.\n\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n#oposicionesbombero #bomberos #opositores #oposiciones2026 #bomberoflash",
+      "ia": false,
+      "estado": "solo_tiktok",
+      "nota": "Sale en Instagram por Metricool (15-17/11); aquí solo para TikTok."
     }
   ]
 }

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Conectar TikTok · BomberoFlash</title>
+<style>
+:root{--bg:#f3f5f9;--card:#fff;--ink:#14203a;--muted:#5b6782;--line:#dbe2ee;--flash:#ffd43b;--navy:#101c35}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1426;--card:#13203b;--ink:#eef2f9;--muted:#9fb0cf;--line:#24365a}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;padding:24px 16px}
+main{max-width:560px;margin:0 auto;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+h1{font-size:24px;margin:0 0 8px}p{color:var(--muted);margin:8px 0}
+input,code{display:block;width:100%;font:15px ui-monospace,Menlo,Consolas,monospace;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);word-break:break-all}
+button,a.btn{display:inline-block;margin-top:12px;padding:12px 18px;border:0;border-radius:10px;background:var(--flash);color:#2a2100;font-weight:700;font-size:16px;text-decoration:none;cursor:pointer}
+.oculto{display:none}
+</style>
+</head>
+<body>
+<main>
+  <div id="pedir">
+    <h1>Conectar TikTok con el publicador</h1>
+    <p>Pega la <b>Client key</b> de tu app de TikTok for Developers (no es secreta) y pulsa el botón. TikTok te pedirá entrar con la cuenta en la que quieres publicar.</p>
+    <input id="clave" placeholder="Client key" autocomplete="off">
+    <button id="ir">Conectar con TikTok</button>
+  </div>
+  <div id="codigo" class="oculto">
+    <h1>Listo, copia este código</h1>
+    <p>En GitHub, abre <b>Actions › Conectar TikTok › Run workflow</b>, pégalo y pulsa <b>Run workflow</b>. Caduca en unos minutos.</p>
+    <code id="valor"></code>
+    <button id="copiar">Copiar código</button>
+  </div>
+  <div id="fallo" class="oculto">
+    <h1>TikTok no ha dado permiso</h1>
+    <p id="motivo"></p>
+  </div>
+</main>
+<script>
+const q = new URLSearchParams(location.search);
+const vuelta = location.origin + location.pathname;
+if (q.get("code")) {
+  document.getElementById("pedir").classList.add("oculto");
+  document.getElementById("codigo").classList.remove("oculto");
+  document.getElementById("valor").textContent = q.get("code");
+  document.getElementById("copiar").onclick = async () => {
+    try { await navigator.clipboard.writeText(q.get("code")); document.getElementById("copiar").textContent = "Copiado"; } catch (e) {}
+  };
+} else if (q.get("error")) {
+  document.getElementById("pedir").classList.add("oculto");
+  document.getElementById("fallo").classList.remove("oculto");
+  document.getElementById("motivo").textContent = (q.get("error_description") || q.get("error"));
+}
+document.getElementById("ir").onclick = () => {
+  const clave = document.getElementById("clave").value.trim();
+  if (!clave) return;
+  const u = new URL("https://www.tiktok.com/v2/auth/authorize/");
+  u.searchParams.set("client_key", clave);
+  u.searchParams.set("scope", "user.info.basic,video.publish,video.upload");
+  u.searchParams.set("response_type", "code");
+  u.searchParams.set("redirect_uri", vuelta);
+  u.searchParams.set("state", Math.random().toString(36).slice(2));
+  location.href = u.toString();
+};
+</script>
+</body>
+</html>

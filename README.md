@@ -1,4 +1,4 @@
-# Publicador de BomberoFlash para Instagram
+# Publicador de BomberoFlash para Instagram y TikTok
 
 Publica solo en @bombero_flash los carruseles y posts que hay en `cola.json`, a la hora indicada, sin Metricool y sin límite de 20 al mes. Usa la API oficial de Instagram, que permite hasta 100 publicaciones cada 24 horas y carruseles de hasta 10 imágenes.
 
@@ -12,6 +12,14 @@ Para ponerlo en marcha, sigue [CONFIGURAR.md](CONFIGURAR.md) (una sola vez).
 - `.github/workflows/renovar-token.yml` renueva cada lunes el token de Instagram, que dura 60 días.
 - Si el publicador estuvo parado y hay posts atrasados, no los suelta todos de golpe: saca uno cada 20 horas.
 - Si un post falla 3 veces, queda marcado como `error` con el motivo, y GitHub te avisa por correo.
+
+## TikTok
+
+Lo mismo que sale en Instagram (reels y carruseles, no historias) se sube a TikTok a la misma hora con `publicador/tiktok.py`, gratis y con la API oficial de TikTok. Para conectarlo, sigue [CONFIGURAR_TIKTOK.md](CONFIGURAR_TIKTOK.md).
+
+- Sube los posts de `cola.json` con fecha desde `tiktok_desde`. `"redes": ["tiktok"]` hace que un post salga solo en TikTok; `"texto_tiktok"` le pone otro texto.
+- En TikTok se cambia «Comenta X y te mando…» por «enlace en mi perfil», porque el envío automático por privado solo funciona en Instagram.
+- Hasta que TikTok apruebe la app, los posts llegan a la bandeja de TikTok del móvil y se publican con un toque. Después, con la variable `TIKTOK_MODO` en `directo`, salen solos.
 
 ## Uso diario
 

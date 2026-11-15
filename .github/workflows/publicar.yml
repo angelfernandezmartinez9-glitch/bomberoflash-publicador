@@ -1,4 +1,4 @@
-name: Publicar en Instagram
+name: Publicar en Instagram y TikTok
 
 on:
   # Activo. Mientras no esté el token de Instagram (CONFIGURAR.md), cada ejecución termina sin hacer nada.
@@ -37,6 +37,32 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           MAX_POR_EJECUCION: "1"
         run: python publicador/publicar.py --${{ github.event.inputs.modo || 'publicar' }}
+
+      - name: Subir lo mismo a TikTok
+        if: always()
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          TIKTOK_MODO: ${{ vars.TIKTOK_MODO || 'borrador' }}
+          TOKEN_OUT: ${{ runner.temp }}/tiktok.txt
+        run: python publicador/tiktok.py --${{ github.event.inputs.modo || 'publicar' }}
+
+      - name: Guardar la clave de TikTok si ha cambiado
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          F="$RUNNER_TEMP/tiktok.txt"
+          [ -s "$F" ] || exit 0
+          NUEVO="$(cat "$F")"
+          echo "::add-mask::$NUEVO"
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::TikTok ha dado una clave nueva y no hay secreto GH_PAT para guardarla. Vuelve a conectar TikTok (CONFIGURAR_TIKTOK.md)."
+            exit 0
+          fi
+          printf '%s' "$NUEVO" | gh secret set TIKTOK_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "Clave de TikTok renovada y guardada."
 
       - name: Guardar el estado de la cola
         if: always()
