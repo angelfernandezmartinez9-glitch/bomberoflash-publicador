@@ -125,7 +125,7 @@ summary{cursor:pointer;font-weight:700}
   }
   fetch('../cola.json',{cache:'no-store'}).then(r=>r.json()).then(cola=>{
     const subidos=leer(),h=hoy();
-    const posts=cola.posts.filter(p=>p.estado!=='error').sort((a,b)=>a.fecha.localeCompare(b.fecha));
+    const posts=cola.posts.filter(p=>p.estado!=='error'&&p.estado!=='archivado').sort((a,b)=>a.fecha.localeCompare(b.fecha));
     // Primero lo pendiente (atrasado, hoy, próximos); lo ya subido, al final.
     const hecho=p=>!!(subidos[p.id]||p.estado==='publicado');
     posts.sort((a,b)=>(hecho(a)-hecho(b))||a.fecha.localeCompare(b.fecha));
