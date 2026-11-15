@@ -179,6 +179,8 @@ def pendientes_para_ahora(cola):
     for post in cola["posts"]:
         if post.get("estado", "pendiente") != "pendiente":
             continue
+        if "redes" in post and "instagram" not in post["redes"]:
+            continue  # solo para TikTok (publicador/tiktok.py)
         fecha = datetime.strptime(post["fecha"], "%Y-%m-%d %H:%M").replace(tzinfo=zona)
         if fecha <= ahora:
             listos.append((fecha, post))

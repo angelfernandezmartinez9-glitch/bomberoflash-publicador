@@ -1,0 +1,52 @@
+name: Conectar TikTok
+
+# Se lanza a mano una vez (CONFIGURAR_TIKTOK.md): cambia el código que da TikTok al
+# autorizar la app por la clave permanente y la guarda en el secreto TIKTOK_REFRESH_TOKEN.
+on:
+  workflow_dispatch:
+    inputs:
+      codigo:
+        description: "Código que enseña la página de TikTok después de autorizar (caduca en unos minutos)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  conectar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pedir a TikTok la clave permanente
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_CODIGO: ${{ github.event.inputs.codigo }}
+          TOKEN_OUT: ${{ runner.temp }}/tiktok.txt
+        run: python publicador/tiktok.py --conectar
+
+      - name: Guardarla en los secretos
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          NUEVO="$(cat "$RUNNER_TEMP/tiktok.txt")"
+          echo "::add-mask::$NUEVO"
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Falta el secreto GH_PAT (paso 3 de CONFIGURAR_TIKTOK.md). Créalo y vuelve a conectar."
+            exit 1
+          fi
+          printf '%s' "$NUEVO" | gh secret set TIKTOK_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "Listo: TikTok conectado. Prueba «Publicar en Instagram y TikTok» en modo comprobar."
+
+      - name: Comprobar la cuenta
+        env:
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+        run: |
+          TIKTOK_REFRESH_TOKEN="$(cat "$RUNNER_TEMP/tiktok.txt")" python publicador/tiktok.py --comprobar
