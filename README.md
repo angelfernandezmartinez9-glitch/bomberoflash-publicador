@@ -8,7 +8,8 @@ Para ponerlo en marcha, sigue [CONFIGURAR.md](CONFIGURAR.md) (una sola vez).
 
 - `cola.json` guarda cada post: fecha y hora (hora de Madrid), imágenes, texto y estado (`pendiente`, `publicado` o `error`).
 - `media/` guarda las imágenes en JPEG, que es el único formato que acepta Instagram por esta vía.
-- `.github/workflows/publicar.yml` se ejecuta cada hora en los servidores de GitHub, publica el post que toque y apunta en `cola.json` que ya salió, con su enlace.
+- `.github/workflows/publicar.yml` se ejecuta en los servidores de GitHub, publica el post que toque y apunta en `cola.json` que ya salió, con su enlace.
+- `.github/workflows/reloj.yml` (con `publicador/reloj.py`) lanza `publicar.yml` a la hora de cada post. Hace falta porque GitHub se salta o retrasa horas las ejecuciones programadas. El reloj dura 5 h 30 min y se vuelve a lanzar solo.
 - `.github/workflows/renovar-token.yml` renueva cada lunes el token de Instagram, que dura 60 días.
 - Si el publicador estuvo parado y hay posts atrasados, no los suelta todos de golpe: saca uno cada 20 horas.
 - Si un post falla 3 veces, queda marcado como `error` con el motivo, y GitHub te avisa por correo.
