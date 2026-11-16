@@ -827,10 +827,13 @@
       "imagenes": [
         "media/historias-2026-11-16/telegram.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "publicado",
       "texto": "",
       "ia": false,
-      "nota": "Historia del grupo de Telegram con captura real del grupo. Sin sticker de enlace: la API no lo pone."
+      "nota": "Historia del grupo de Telegram con captura real del grupo. Sin sticker de enlace: la API no lo pone.",
+      "instagram_id": "17914549047589487",
+      "enlace": "https://www.instagram.com/stories/bombero_flash/4031705972121044505",
+      "publicado_en": "2026-11-16T14:47+01:00"
     },
     {
       "id": "historia_vapor",
