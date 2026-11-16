@@ -842,10 +842,10 @@
       "imagenes": [
         "media/historias-2026-11-16/1-vapor.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "en_revision",
       "texto": "",
       "ia": false,
-      "nota": "Dato: 1 litro de agua, unos 1.700 de vapor. Foto p21 de las 400 del usuario."
+      "nota": "Dato: 1 litro de agua, unos 1.700 de vapor. Foto p21 de las 400 del usuario. Pausada: el usuario quiere ver las historias antes de publicarlas."
     },
     {
       "id": "historia_clase_f_pregunta",
@@ -854,10 +854,10 @@
       "imagenes": [
         "media/historias-2026-11-16/2-pregunta.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "en_revision",
       "texto": "",
       "ia": false,
-      "nota": "Pregunta clase de fuego del aceite. Foto p18."
+      "nota": "Pregunta clase de fuego del aceite. Foto p18. Pausada: el usuario quiere ver las historias antes de publicarlas."
     },
     {
       "id": "historia_clase_f_respuesta",
@@ -866,10 +866,10 @@
       "imagenes": [
         "media/historias-2026-11-16/3-respuesta.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "en_revision",
       "texto": "",
       "ia": false,
-      "nota": "Respuesta: clase F. Foto p13."
+      "nota": "Respuesta: clase F. Foto p13. Pausada: el usuario quiere ver las historias antes de publicarlas."
     },
     {
       "id": "historia_gratis",
@@ -878,10 +878,10 @@
       "imagenes": [
         "media/historias-2026-11-16/4-gratis.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "en_revision",
       "texto": "",
       "ia": false,
-      "nota": "Cuenta gratis o 7 días gratis, bomberoflash.es/planes. Foto p29. Sin sticker de enlace: la API no lo pone."
+      "nota": "Cuenta gratis o 7 días gratis, bomberoflash.es/planes. Foto p29. Sin sticker de enlace: la API no lo pone. Pausada: el usuario quiere ver las historias antes de publicarlas."
     },
     {
       "id": "historia_plaza_noche",
@@ -890,10 +890,10 @@
       "imagenes": [
         "media/historias-2026-11-16/5-noche.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "en_revision",
       "texto": "",
       "ia": false,
-      "nota": "La plaza no se regala. 7 días gratis. Foto p38. Sin sticker de enlace."
+      "nota": "La plaza no se regala. 7 días gratis. Foto p38. Sin sticker de enlace. Pausada: el usuario quiere ver las historias antes de publicarlas."
     }
   ]
 }
