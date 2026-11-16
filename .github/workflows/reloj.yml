@@ -1,0 +1,42 @@
+name: Reloj del publicador
+
+# GitHub se salta o retrasa horas las ejecuciones programadas de este repositorio,
+# así que «Publicar» no salía a su hora. Este reloj se queda despierto hasta
+# 5 h 30 min, lanza «Publicar» a la hora de cada post (publicador/reloj.py) y, al
+# acabar, se vuelve a lanzar a sí mismo. Es gratis porque el repositorio es público.
+# Para pararlo: Actions → «Reloj del publicador» → «…» → Disable workflow.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Solo de respaldo, por si la cadena se corta: GitHub no garantiza la hora.
+    - cron: "7 */3 * * *"
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: reloj-publicador
+  cancel-in-progress: true
+
+jobs:
+  reloj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Lanzar «Publicar» a la hora de cada post
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python publicador/reloj.py
+
+      - name: Volver a lanzar el reloj
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run reloj.yml --ref main

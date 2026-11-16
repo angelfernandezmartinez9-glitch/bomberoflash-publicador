@@ -50,4 +50,4 @@ Sin `GH_PAT` funciona igual. Cada lunes el sistema renueva el token en Instagram
 2. Abre **Publicar en Instagram › Run workflow**, elige el modo **comprobar** y pulsa **Run workflow**.
 3. Al terminar, abre la ejecución. Debe poner «Token válido para @bombero_flash» y cuántos posts hay en la cola.
 
-A partir de ahí, cada hora comprueba la cola y publica lo que toque, aunque tengas el ordenador apagado.
+A partir de ahí, el reloj (`reloj.yml`) mira la cola cada 2 minutos y publica lo que toque a su hora, aunque tengas el ordenador apagado.
