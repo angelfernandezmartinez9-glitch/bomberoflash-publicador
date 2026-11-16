@@ -25,7 +25,13 @@ jobs:
   publicar:
     runs-on: ubuntu-latest
     steps:
+      # Siempre la última versión de main, no la del momento en que se lanzó la ejecución:
+      # una ejecución que espera en cola con un cola.json viejo volvería a publicar un post
+      # (pasó con el reel del backdraft el 16/11). publicar.py además reserva cada post en
+      # origin/main antes de publicarlo.
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
