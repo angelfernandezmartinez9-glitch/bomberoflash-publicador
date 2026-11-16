@@ -13,6 +13,7 @@ Para ponerlo en marcha, sigue [CONFIGURAR.md](CONFIGURAR.md) (una sola vez).
 - `.github/workflows/reloj.yml` (con `publicador/reloj.py`) lanza `publicar.yml` a la hora de cada post. Hace falta porque GitHub se salta o retrasa horas las ejecuciones programadas. El reloj dura 5 h 30 min y se vuelve a lanzar solo.
 - `.github/workflows/renovar-token.yml` renueva cada lunes el token de Instagram, que dura 60 días.
 - Si el publicador estuvo parado y hay posts atrasados, no los suelta todos de golpe: saca uno cada 20 horas.
+- Antes de publicar, cada post se marca como `publicando` en GitHub. Así, si dos ejecuciones coinciden, la segunda no lo repite. Además, no se publica si en las últimas 24 h ya salió en la cuenta un post con el mismo texto. Si un post se queda en `publicando` más de 15 minutos, mira en Instagram si salió y ponlo a mano en `publicado` o en `pendiente`.
 - Si un post falla 3 veces, queda marcado como `error` con el motivo, y GitHub te avisa por correo.
 
 ## TikTok
