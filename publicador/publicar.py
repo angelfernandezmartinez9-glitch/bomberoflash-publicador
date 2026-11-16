@@ -56,6 +56,10 @@ class ErrorInstagram(Exception):
     pass
 
 
+class ErrorGuardado(Exception):
+    """No se pudo subir cola.json a GitHub. No es un fallo de Instagram: no cuenta como intento."""
+
+
 def llamar(metodo, ruta, **params):
     """Llama a la API de Instagram y devuelve el JSON de la respuesta."""
     token = os.environ.get("IG_ACCESS_TOKEN", "").strip()
@@ -254,7 +258,7 @@ def cambiar_en_remoto(cambio, mensaje):
         if git("push", "-q", "origin", "HEAD:main").returncode == 0:
             return resultado
         time.sleep(3)
-    raise ErrorInstagram("No se pudo guardar cola.json en GitHub (6 intentos).")
+    raise ErrorGuardado("No se pudo guardar cola.json en GitHub (6 intentos).")
 
 
 def buscar_post(cola, post_id):
@@ -321,7 +325,13 @@ def modo_publicar(simular=False):
             p["publicando_desde"] = datetime.now(zona).isoformat(timespec="minutes")
             return True
 
-        if not cambiar_en_remoto(reservar, f"Cola: publicando {post['id']}"):
+        try:
+            reservado = cambiar_en_remoto(reservar, f"Cola: publicando {post['id']}")
+        except ErrorGuardado as g:
+            fallos += 1
+            resumen(f"No publico {post['id']}: {g}")
+            continue
+        if not reservado:
             resumen(f"{post['id']} ya lo está publicando otra ejecución o ya salió: no lo repito.")
             continue
         try:
@@ -332,18 +342,6 @@ def modo_publicar(simular=False):
             else:
                 media_id, enlace = publicar_post(post, uid)
                 resumen(f"Publicado {post['id']} · {enlace or media_id}")
-
-            def hecho(c, pid=post["id"], media_id=media_id, enlace=enlace):
-                p = buscar_post(c, pid)
-                if not p:
-                    return False
-                p.update(estado="publicado", instagram_id=media_id, enlace=enlace,
-                         publicado_en=datetime.now(zona).isoformat(timespec="minutes"))
-                p.pop("error", None)
-                p.pop("publicando_desde", None)
-                return True
-
-            cambiar_en_remoto(hecho, f"Cola: publicado {post['id']}")
         except ErrorInstagram as e:
             fallos += 1
             resumen(f"ERROR en {post['id']}: {e}")
@@ -358,7 +356,33 @@ def modo_publicar(simular=False):
                 p.pop("publicando_desde", None)
                 return True
 
-            cambiar_en_remoto(fallo, f"Cola: error en {post['id']}")
+            try:
+                cambiar_en_remoto(fallo, f"Cola: error en {post['id']}")
+            except ErrorGuardado as g:
+                # Se queda en «publicando»: no se reintenta solo, pero tampoco se duplica.
+                resumen(f"AVISO: {g} {post['id']} se queda en «publicando»; revísalo a mano.")
+            continue
+
+        def hecho(c, pid=post["id"], media_id=media_id, enlace=enlace):
+            p = buscar_post(c, pid)
+            if not p:
+                return False
+            p.update(estado="publicado", instagram_id=media_id, enlace=enlace,
+                     publicado_en=datetime.now(zona).isoformat(timespec="minutes"))
+            p.pop("error", None)
+            p.pop("publicando_desde", None)
+            return True
+
+        try:
+            cambiar_en_remoto(hecho, f"Cola: publicado {post['id']}")
+        except ErrorGuardado as g:
+            # Ya está en Instagram: nunca volver a «pendiente». En GitHub sigue en «publicando»
+            # (nadie lo repite) y el último paso del flujo intenta guardar el cola.json local.
+            fallos += 1
+            local = cargar_cola()
+            if hecho(local):
+                guardar_cola(local)
+            resumen(f"AVISO: {post['id']} salió ({enlace or media_id}), pero {g}")
     return 1 if fallos else 0
 
 
