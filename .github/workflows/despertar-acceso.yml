@@ -1,0 +1,34 @@
+name: Mantener despierta la entrada de BomberoFlash
+
+# La comprobación de acceso de la app (Cloud Function validateAccess) se duerme
+# si nadie la usa en un rato y la primera entrada tarda varios segundos. Esta
+# tarea la «toca» cada 5 minutos para que siga despierta. Es gratis porque este
+# repositorio es público. No envía datos ni credenciales: la función contesta
+# «sin sesión» y solo sirve para mantenerla arrancada.
+# GitHub puede retrasar estas tareas unos minutos, y las apaga si el repositorio
+# pasa 60 días sin cambios.
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: despertar-acceso
+  cancel-in-progress: true
+
+jobs:
+  despertar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Tocar validateAccess
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 60 \
+            -X POST -H 'Content-Type: application/json' -d '{"data":{}}' \
+            https://europe-west1-imprimir-web.cloudfunctions.net/validateAccess)
+          echo "Respuesta: $code (401 es lo normal: la función está despierta y pide sesión)"
+          # 401/403/400 = la función ha contestado. Otro código no rompe nada, solo se anota.
+          case "$code" in 200|400|401|403) ;; *) echo "::warning::validateAccess respondió $code" ;; esac
