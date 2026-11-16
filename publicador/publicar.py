@@ -27,12 +27,13 @@ Variables de entorno:
 """
 import json
 import os
+import subprocess
 import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -53,6 +54,10 @@ MAX_INTENTOS = 3
 
 class ErrorInstagram(Exception):
     pass
+
+
+class ErrorGuardado(Exception):
+    """No se pudo subir cola.json a GitHub. No es un fallo de Instagram: no cuenta como intento."""
 
 
 def llamar(metodo, ruta, **params):
@@ -128,9 +133,15 @@ def publicar_post(post, uid):
     tipo = post.get("tipo", "imagen")
     if tipo == "reel":
         video = url_publica(post["video"])
+        extra = {}
+        if post.get("portada_ms") is not None:
+            # Fotograma de portada (milisegundos desde el inicio). Sin él, Instagram
+            # elige uno al azar y a veces sale una palabra suelta de los subtítulos.
+            extra["thumb_offset"] = int(post["portada_ms"])
         contenedor = llamar("POST", f"{uid}/media", media_type="REELS", video_url=video,
                             caption=post.get("texto", ""),
-                            share_to_feed="false" if post.get("solo_reels") else "true")["id"]
+                            share_to_feed="false" if post.get("solo_reels") else "true",
+                            **extra)["id"]
         esperar_contenedor(contenedor, maximo=600)
     elif tipo == "historia":
         # Una historia no lleva texto: lo que se quiera decir va dentro de la imagen o el vídeo.
@@ -209,6 +220,72 @@ def hay_atraso_reciente(cola, listos):
     return bool(fechas) and (ahora - max(fechas)).total_seconds() < 20 * 3600
 
 
+def en_github():
+    return os.environ.get("GITHUB_ACTIONS") == "true"
+
+
+def git(*args):
+    return subprocess.run(["git", "-C", RAIZ, *args], capture_output=True, text=True)
+
+
+def cambiar_en_remoto(cambio, mensaje):
+    """Aplica cambio(cola) sobre la cola más reciente de origin/main y la sube en el acto.
+
+    Así dos ejecuciones de «Publicar» que se solapen no pueden publicar el mismo post:
+    la segunda ve el post ya «publicando» o «publicado». Si cambio devuelve False no se
+    sube nada. Si otra ejecución sube antes, se repite con su versión.
+    Solo en GitHub Actions; en local se trabaja con el cola.json del disco."""
+    if not en_github():
+        cola = cargar_cola()
+        resultado = cambio(cola)
+        if resultado is not False:
+            guardar_cola(cola)
+        return resultado
+    for _ in range(6):
+        if git("fetch", "-q", "origin", "main").returncode != 0:
+            time.sleep(5)
+            continue
+        git("reset", "-q", "--hard", "origin/main")
+        cola = cargar_cola()
+        resultado = cambio(cola)
+        if resultado is False:
+            return False
+        guardar_cola(cola)
+        git("add", "cola.json")
+        git("-c", "user.name=publicador-bomberoflash",
+            "-c", "user.email=41898282+github-actions[bot]@users.noreply.github.com",
+            "commit", "-q", "-m", mensaje)
+        if git("push", "-q", "origin", "HEAD:main").returncode == 0:
+            return resultado
+        time.sleep(3)
+    raise ErrorGuardado("No se pudo guardar cola.json en GitHub (6 intentos).")
+
+
+def buscar_post(cola, post_id):
+    return next((p for p in cola["posts"] if p.get("id") == post_id), None)
+
+
+def ya_en_instagram(uid, post):
+    """Busca entre las últimas publicaciones de la cuenta una con el mismo texto (últimas 24 h).
+    Es la última red de seguridad contra duplicados. Las historias no llevan texto: no se comprueban."""
+    texto = (post.get("texto") or "").strip()
+    if post.get("tipo") == "historia" or not texto:
+        return None
+    try:
+        datos = llamar("GET", f"{uid}/media", fields="caption,timestamp,permalink", limit="10").get("data", [])
+    except ErrorInstagram:
+        return None
+    limite = datetime.now(ZoneInfo("UTC")) - timedelta(hours=24)
+    for m in datos:
+        try:
+            cuando = datetime.strptime(m.get("timestamp", ""), "%Y-%m-%dT%H:%M:%S%z")
+        except ValueError:
+            continue
+        if cuando >= limite and (m.get("caption") or "").strip() == texto:
+            return m.get("id"), m.get("permalink", "")
+    return None
+
+
 def modo_publicar(simular=False):
     cola = cargar_cola()
     listos = pendientes_para_ahora(cola)
@@ -238,20 +315,74 @@ def modo_publicar(simular=False):
             for r in archivos:
                 print("   ", url_publica(r) if os.environ.get("MEDIA_BASE_URL") or os.environ.get("GITHUB_REPOSITORY") else r)
             continue
+        zona = ZoneInfo(cola.get("zona", "Europe/Madrid"))
+
+        def reservar(c, pid=post["id"]):
+            p = buscar_post(c, pid)
+            if not p or p.get("estado", "pendiente") != "pendiente":
+                return False
+            p["estado"] = "publicando"
+            p["publicando_desde"] = datetime.now(zona).isoformat(timespec="minutes")
+            return True
+
         try:
-            media_id, enlace = publicar_post(post, uid)
-            post.update(estado="publicado", instagram_id=media_id, enlace=enlace,
-                        publicado_en=datetime.now(ZoneInfo(cola.get("zona", "Europe/Madrid"))).isoformat(timespec="minutes"))
-            post.pop("error", None)
-            resumen(f"Publicado {post['id']} · {enlace or media_id}")
+            reservado = cambiar_en_remoto(reservar, f"Cola: publicando {post['id']}")
+        except ErrorGuardado as g:
+            fallos += 1
+            resumen(f"No publico {post['id']}: {g}")
+            continue
+        if not reservado:
+            resumen(f"{post['id']} ya lo está publicando otra ejecución o ya salió: no lo repito.")
+            continue
+        try:
+            previo = ya_en_instagram(uid, post)
+            if previo:
+                media_id, enlace = previo
+                resumen(f"{post['id']} ya estaba en Instagram ({enlace or media_id}): no lo repito.")
+            else:
+                media_id, enlace = publicar_post(post, uid)
+                resumen(f"Publicado {post['id']} · {enlace or media_id}")
         except ErrorInstagram as e:
             fallos += 1
-            post["intentos"] = post.get("intentos", 0) + 1
-            post["error"] = str(e)
-            if post["intentos"] >= MAX_INTENTOS:
-                post["estado"] = "error"
-            resumen(f"ERROR en {post['id']} (intento {post['intentos']}): {e}")
-        guardar_cola(cola)
+            resumen(f"ERROR en {post['id']}: {e}")
+
+            def fallo(c, pid=post["id"], error=str(e)):
+                p = buscar_post(c, pid)
+                if not p:
+                    return False
+                p["intentos"] = p.get("intentos", 0) + 1
+                p["error"] = error
+                p["estado"] = "error" if p["intentos"] >= MAX_INTENTOS else "pendiente"
+                p.pop("publicando_desde", None)
+                return True
+
+            try:
+                cambiar_en_remoto(fallo, f"Cola: error en {post['id']}")
+            except ErrorGuardado as g:
+                # Se queda en «publicando»: no se reintenta solo, pero tampoco se duplica.
+                resumen(f"AVISO: {g} {post['id']} se queda en «publicando»; revísalo a mano.")
+            continue
+
+        def hecho(c, pid=post["id"], media_id=media_id, enlace=enlace):
+            p = buscar_post(c, pid)
+            if not p:
+                return False
+            p.update(estado="publicado", instagram_id=media_id, enlace=enlace,
+                     publicado_en=datetime.now(zona).isoformat(timespec="minutes"))
+            p.pop("error", None)
+            p.pop("publicando_desde", None)
+            return True
+
+        try:
+            cambiar_en_remoto(hecho, f"Cola: publicado {post['id']}")
+        except ErrorGuardado as g:
+            # Ya está en Instagram: nunca volver a «pendiente». En GitHub sigue en «publicando»
+            # (nadie lo repite) y el último paso del flujo intenta guardar el cola.json local.
+            fallos += 1
+            local = cargar_cola()
+            if hecho(local):
+                guardar_cola(local)
+            resumen(f"AVISO: {post['id']} salió ({enlace or media_id}), pero {g}")
     return 1 if fallos else 0
 
 
