@@ -128,9 +128,15 @@ def publicar_post(post, uid):
     tipo = post.get("tipo", "imagen")
     if tipo == "reel":
         video = url_publica(post["video"])
+        extra = {}
+        if post.get("portada_ms") is not None:
+            # Fotograma de portada (milisegundos desde el inicio). Sin él, Instagram
+            # elige uno al azar y a veces sale una palabra suelta de los subtítulos.
+            extra["thumb_offset"] = int(post["portada_ms"])
         contenedor = llamar("POST", f"{uid}/media", media_type="REELS", video_url=video,
                             caption=post.get("texto", ""),
-                            share_to_feed="false" if post.get("solo_reels") else "true")["id"]
+                            share_to_feed="false" if post.get("solo_reels") else "true",
+                            **extra)["id"]
         esperar_contenedor(contenedor, maximo=600)
     elif tipo == "historia":
         # Una historia no lleva texto: lo que se quiera decir va dentro de la imagen o el vídeo.
