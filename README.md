@@ -7,6 +7,7 @@ Para ponerlo en marcha, sigue [CONFIGURAR.md](CONFIGURAR.md) (una sola vez).
 ## Cómo funciona
 
 - `cola.json` guarda cada post: fecha y hora (hora de Madrid), imágenes, texto y estado (`pendiente`, `publicado` o `error`).
+- En un reel, `"portada_ms"` elige el fotograma de portada (milisegundos desde el inicio, p. ej. `4000`). Sin él, Instagram pone uno al azar.
 - `media/` guarda las imágenes en JPEG, que es el único formato que acepta Instagram por esta vía.
 - `.github/workflows/publicar.yml` se ejecuta en los servidores de GitHub, publica el post que toque y apunta en `cola.json` que ya salió, con su enlace.
 - `.github/workflows/reloj.yml` (con `publicador/reloj.py`) lanza `publicar.yml` a la hora de cada post. Hace falta porque GitHub se salta o retrasa horas las ejecuciones programadas. El reloj dura 5 h 30 min y se vuelve a lanzar solo.
