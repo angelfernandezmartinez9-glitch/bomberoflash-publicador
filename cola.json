@@ -819,6 +819,18 @@
       "ia": false,
       "estado": "solo_tiktok",
       "nota": "Sale en Instagram por Metricool (15-17/11); aquí solo para TikTok."
+    },
+    {
+      "id": "historia_telegram_grupo",
+      "fecha": "2026-11-16 17:30",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-16/telegram.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "Historia del grupo de Telegram con captura real del grupo. Sin sticker de enlace: la API no lo pone."
     }
   ]
 }
