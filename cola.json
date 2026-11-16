@@ -831,6 +831,66 @@
       "texto": "",
       "ia": false,
       "nota": "Historia del grupo de Telegram con captura real del grupo. Sin sticker de enlace: la API no lo pone."
+    },
+    {
+      "id": "historia_vapor",
+      "fecha": "2026-11-16 15:15",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-16/1-vapor.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "Dato: 1 litro de agua, unos 1.700 de vapor. Foto p21 de las 400 del usuario."
+    },
+    {
+      "id": "historia_clase_f_pregunta",
+      "fecha": "2026-11-16 18:30",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-16/2-pregunta.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "Pregunta clase de fuego del aceite. Foto p18."
+    },
+    {
+      "id": "historia_clase_f_respuesta",
+      "fecha": "2026-11-16 18:31",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-16/3-respuesta.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "Respuesta: clase F. Foto p13."
+    },
+    {
+      "id": "historia_gratis",
+      "fecha": "2026-11-16 20:30",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-16/4-gratis.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "Cuenta gratis o 7 días gratis, bomberoflash.es/planes. Foto p29. Sin sticker de enlace: la API no lo pone."
+    },
+    {
+      "id": "historia_plaza_noche",
+      "fecha": "2026-11-16 22:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-16/5-noche.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "La plaza no se regala. 7 días gratis. Foto p38. Sin sticker de enlace."
     }
   ]
 }
