@@ -923,6 +923,107 @@
       "instagram_id": "18112632554187643",
       "enlace": "https://www.instagram.com/p/Df19mxtoALn/",
       "publicado_en": "2026-11-17T13:46+01:00"
+    },
+    {
+      "id": "carrusel_13-siglas-camiones",
+      "fecha": "2026-11-17 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-tus-fotos/13-siglas-camiones_01.jpg",
+        "media/carruseles-tus-fotos/13-siglas-camiones_02.jpg",
+        "media/carruseles-tus-fotos/13-siglas-camiones_03.jpg",
+        "media/carruseles-tus-fotos/13-siglas-camiones_04.jpg",
+        "media/carruseles-tus-fotos/13-siglas-camiones_05.jpg",
+        "media/carruseles-tus-fotos/13-siglas-camiones_06.jpg",
+        "media/carruseles-tus-fotos/13-siglas-camiones_07.jpg"
+      ],
+      "texto": "BUL, BUP, BRP, BNP, AEA y ABA. ¿Las sabes leer todas? Guárdalo para repasar antes del examen.\n\n💬 Comenta FLASH y te mando al privado tu acceso gratis a BomberoFlash, con preguntas de exámenes oficiales de bombero.\n\n#oposicionesbombero #bomberos #opositores #vehiculosdebomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "carrusel_14-regla-del-30",
+      "fecha": "2026-11-18 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-tus-fotos/14-regla-del-30_01.jpg",
+        "media/carruseles-tus-fotos/14-regla-del-30_02.jpg",
+        "media/carruseles-tus-fotos/14-regla-del-30_03.jpg",
+        "media/carruseles-tus-fotos/14-regla-del-30_04.jpg",
+        "media/carruseles-tus-fotos/14-regla-del-30_05.jpg",
+        "media/carruseles-tus-fotos/14-regla-del-30_06.jpg"
+      ],
+      "texto": "Más de 30 °C, menos del 30 % de humedad y viento de más de 30 km/h. Cuando se juntan, el monte arde como la pólvora.\n\n💬 Comenta FLASH y te mando al privado tu acceso gratis a BomberoFlash.\n\n#oposicionesbombero #incendiosforestales #bomberoforestal #bomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "carrusel_15-partes-incendio-forestal",
+      "fecha": "2026-11-20 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-tus-fotos/15-partes-incendio-forestal_01.jpg",
+        "media/carruseles-tus-fotos/15-partes-incendio-forestal_02.jpg",
+        "media/carruseles-tus-fotos/15-partes-incendio-forestal_03.jpg",
+        "media/carruseles-tus-fotos/15-partes-incendio-forestal_04.jpg",
+        "media/carruseles-tus-fotos/15-partes-incendio-forestal_05.jpg",
+        "media/carruseles-tus-fotos/15-partes-incendio-forestal_06.jpg"
+      ],
+      "texto": "Cabeza, cola, flancos, dedos, bolsas, islas y focos secundarios. ¿Cuántas te sabías? Dínoslo en comentarios.\n\n💬 Comenta FLASH y te mando al privado tu acceso gratis a BomberoFlash.\n\n#oposicionesbombero #incendiosforestales #bomberos #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "carrusel_16-aire-del-era",
+      "fecha": "2026-11-22 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-tus-fotos/16-aire-del-era_01.jpg",
+        "media/carruseles-tus-fotos/16-aire-del-era_02.jpg",
+        "media/carruseles-tus-fotos/16-aire-del-era_03.jpg",
+        "media/carruseles-tus-fotos/16-aire-del-era_04.jpg",
+        "media/carruseles-tus-fotos/16-aire-del-era_05.jpg",
+        "media/carruseles-tus-fotos/16-aire-del-era_06.jpg"
+      ],
+      "texto": "Botella de 6 litros a 300 bar. ¿Cuánto aire llevas? Responde antes de pasar a la solución 👀\n\n💬 Comenta FLASH y te mando al privado tu acceso gratis a BomberoFlash.\n\n#oposicionesbombero #testoposiciones #bomberos #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "carrusel_17-mangueras",
+      "fecha": "2026-11-24 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-tus-fotos/17-mangueras_01.jpg",
+        "media/carruseles-tus-fotos/17-mangueras_02.jpg",
+        "media/carruseles-tus-fotos/17-mangueras_03.jpg",
+        "media/carruseles-tus-fotos/17-mangueras_04.jpg",
+        "media/carruseles-tus-fotos/17-mangueras_05.jpg"
+      ],
+      "texto": "25, 45, 70 y 100 mm, y un racor sin macho ni hembra. Guárdalo para el tema de material.\n\n💬 Comenta FLASH y te mando al privado tu acceso gratis a BomberoFlash.\n\n#oposicionesbombero #bomberos #opositores #materialbomberos #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "carrusel_18-asi-se-prepara",
+      "fecha": "2026-11-26 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-tus-fotos/18-asi-se-prepara_01.jpg",
+        "media/carruseles-tus-fotos/18-asi-se-prepara_02.jpg",
+        "media/carruseles-tus-fotos/18-asi-se-prepara_03.jpg",
+        "media/carruseles-tus-fotos/18-asi-se-prepara_04.jpg",
+        "media/carruseles-tus-fotos/18-asi-se-prepara_05.jpg"
+      ],
+      "texto": "El físico se entrena. El temario también. 344 exámenes reales, más de 114.000 preguntas, psicotécnicos y test de personalidad.\n\n💬 Comenta FLASH y te mando el enlace: cuenta gratis y 7 días para probarlo todo.\n\n#oposicionesbombero #bomberos #opositores #oposiciones2026 #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
     }
   ]
 }
