@@ -900,6 +900,26 @@
       "texto": "",
       "ia": false,
       "nota": "La plaza no se regala. 7 días gratis. Foto p38. Sin sticker de enlace. Pausada: el usuario quiere ver las historias antes de publicarlas."
+    },
+    {
+      "id": "carrusel_03-cuenta-gratis",
+      "fecha": "2026-11-17 13:30",
+      "tipo": "carrusel",
+      "redes": [
+        "instagram"
+      ],
+      "imagenes": [
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_01.jpg",
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_02.jpg",
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_03.jpg",
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_04.jpg",
+        "media/carruseles-comenta-flash/03-polaroids-cuenta-gratis_05.jpg"
+      ],
+      "texto": "Puedes empezar a entrenar hoy sin pagar nada: cuenta gratis solo con tu correo y 20 preguntas de examen cada día. Y si lo quieres todo, 7 días gratis con leyes y psicotécnicos.\n\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n#oposicionesbombero #bomberos #opositores #oposiciones2026 #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH",
+      "nota": "Iba por Metricool (post 428793428), que lo rechazó por el límite de la cuenta gratis. Sale por el publicador."
     }
   ]
 }
