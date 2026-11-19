@@ -1048,6 +1048,30 @@
       "instagram_id": "18257139883308980",
       "enlace": "https://www.instagram.com/reel/Df5nNronEGe/",
       "publicado_en": "2026-11-18T23:47+01:00"
+    },
+    {
+      "id": "reel_13_co2",
+      "fecha": "2026-11-19 10:30",
+      "tipo": "reel",
+      "video": "media/reels/reel-13-co2.mp4",
+      "imagenes": [],
+      "texto": "🥶 ¡Suelta eso! El extintor de CO₂ te congela la mano en segundos… y cae en la oposición de bombero.\n❓ ¿A qué temperatura sale la nieve carbónica? ¿−31 °C o −79 °C?\n⚠️ Cayó en el examen de bombero del Ayuntamiento de Zamora (2025) y en el de bombero conductor del Ayuntamiento de Murcia (2021).\n\n💬 Comenta HIELO y te paso gratis más preguntas de examen como esta.\n✅ Cuenta gratis: 20 preguntas al día de exámenes reales, sin tarjeta.\n📍 ¿Te ha caído alguna de extintores? Cuéntamelo.\n\n#oposicionesbombero #bomberos #opositores #extintores #bomberoflash\n.\n.\n.\n✅ Respuesta: −79 °C. El CO₂ sale del difusor y una parte se convierte en nieve carbónica, que está por debajo de −79 °C.\n❌ La trampa: 31 °C es la temperatura crítica del CO₂ (por encima no se puede licuar). Es en positivo; −31 °C no vale.\n🧤 Por eso el difusor se congela: se agarra siempre por la empuñadura, nunca por la boca, o te quemas por congelación.\n📝 Opciones reales: Zamora 2025 (−31, −79, −61, −87 °C) y Murcia 2021 (−31, −79, −18, −4 °C).",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "HIELO",
+      "portada_ms": 1200
+    },
+    {
+      "id": "reel_14_blanco",
+      "fecha": "2026-11-19 21:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-14-blanco.mp4",
+      "imagenes": [],
+      "texto": "✋ ¡Para! Si dejas preguntas en blanco en el test de bombero, estás tirando tu plaza.\n🤔 Si dudas entre dos y la dejas en blanco, estás regalando puntos.\n\n📊 Si cada fallo resta 1/3 de acierto y hay 4 opciones:\n• A ciegas: de media, 0.\n• Dudando entre dos: de media, +0,33 aciertos por pregunta.\n• Diez dudas así: unos +3,3 aciertos netos.\n📌 Regla: si un fallo resta menos que un acierto, entre dos, contesta. Si resta 1/4, compensa aún más.\n⚠️ Mira siempre la penalización en las bases de tu convocatoria.\n\n💬 Comenta BLANCO y te paso gratis exámenes reales de bombero para entrenarlo.\n✅ Cuenta gratis: 20 preguntas al día, sin tarjeta.\n📍 ¿Cuánto resta un fallo en tu oposición? Te leo.\n\n#oposicionesbombero #oposiciones #bomberos #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "BLANCO",
+      "portada_ms": 1800
     }
   ]
 }
