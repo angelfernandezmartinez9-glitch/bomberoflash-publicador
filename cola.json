@@ -1075,9 +1075,10 @@
       "imagenes": [],
       "texto": "✋ ¡Para! Si dejas preguntas en blanco en el test de bombero, estás tirando tu plaza.\n🤔 Si dudas entre dos y la dejas en blanco, estás regalando puntos.\n\n📊 Si cada fallo resta 1/3 de acierto y hay 4 opciones:\n• A ciegas: de media, 0.\n• Dudando entre dos: de media, +0,33 aciertos por pregunta.\n• Diez dudas así: unos +3,3 aciertos netos.\n📌 Regla: si un fallo resta menos que un acierto, entre dos, contesta. Si resta 1/4, compensa aún más.\n⚠️ Mira siempre la penalización en las bases de tu convocatoria.\n\n💬 Comenta BLANCO y te paso gratis exámenes reales de bombero para entrenarlo.\n✅ Cuenta gratis: 20 preguntas al día, sin tarjeta.\n📍 ¿Cuánto resta un fallo en tu oposición? Te leo.\n\n#oposicionesbombero #oposiciones #bomberos #opositores #bomberoflash",
       "ia": false,
-      "estado": "pendiente",
+      "estado": "publicando",
       "palabra_linkdm": "BLANCO",
-      "portada_ms": 1800
+      "portada_ms": 1800,
+      "publicando_desde": "2026-11-19T21:01+01:00"
     },
     {
       "id": "reel_15_5fuegos",
