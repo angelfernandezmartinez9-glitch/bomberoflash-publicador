@@ -570,8 +570,9 @@
       ],
       "texto": "Verde, amarillo, rojo y negro. ¿Te sabes el orden de las preguntas del triaje START?\n\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n#oposicionesbombero #triaje #emergencias #bomberos #bomberoflash",
       "ia": false,
-      "estado": "pendiente",
-      "palabra_linkdm": "FLASH"
+      "estado": "publicando",
+      "palabra_linkdm": "FLASH",
+      "publicando_desde": "2026-11-21T13:30+01:00"
     },
     {
       "id": "carrusel_08-colores-de-seguridad",
