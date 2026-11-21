@@ -1170,6 +1170,18 @@
       "estado": "pendiente",
       "palabra_linkdm": "ABC",
       "portada_ms": 800
+    },
+    {
+      "id": "reel_21_airbag",
+      "fecha": "2026-11-21 10:20",
+      "tipo": "reel",
+      "video": "media/reels/reel-21-airbag.mp4",
+      "imagenes": [],
+      "texto": "💥 Examen de bombero: en un rescate, el airbag más peligroso es el que NO ha saltado. ¿Sabes por qué?\n\n🔋 Lo primero es desconectar la batería… pero la centralita guarda energía en sus condensadores. Un golpe, un corte o un cortocircuito y la bolsa se hincha en unos 30-50 milisegundos: más rápido que un parpadeo.\n\n📏 Mientras trabajas dentro, guarda estas distancias:\n• Lateral: 13 cm\n• Conductor: 26 cm\n• Cortina: 38 cm\n• Acompañante: 52 cm\n💡 Truco: son 5, 10, 15 y 20 pulgadas.\n\n⚠️ El generador de la cortina es una botella de gas en el pilar: si la cortas, puede salir disparada. Por eso, antes de cortar, se quitan los plásticos (destapizar).\n🚫 Y nunca lo tapes con una manta.\n\nHa caído en Jaén, Huelva, Ávila y A Coruña.\n\n💬 ¿Opositas a bombero en España? Comenta AIRBAG y te mando gratis sus preguntas de examen.\n✅ Cuenta gratis: 20 preguntas al día de exámenes reales, sin tarjeta.\n\n#bomberos #oposicionesbombero #excarcelacion #oposicionesespaña #bombero\n.\n.\n.\n📚 Fuentes: exámenes de bombero de Jaén, Huelva, Ávila y A Coruña. Temario de Bombero Flash, tema 22 (Rescate en accidentes de tráfico).",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "AIRBAG",
+      "portada_ms": 2500
     }
   ]
 }
