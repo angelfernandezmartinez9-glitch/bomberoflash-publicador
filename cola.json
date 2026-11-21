@@ -1197,9 +1197,10 @@
       "imagenes": [],
       "texto": "💨 Examen de bombero: huele a gas en un piso. ¿Abres la ventana de arriba o la de abajo? Si fallas, la lías.\n\n👉 Depende del gas:\n🟢 Gas natural (metano): densidad 0,55. Pesa casi la mitad que el aire, sube al techo → ventilas por arriba.\n🟠 Butano: densidad 2. Pesa el doble, baja al suelo y se mete en sótanos y alcantarillas. El propano (1,52), igual.\n🧮 Truco: masa molecular ÷ 29. Si sale más de 1, baja.\n\n⚠️ La trampa (Sevilla): si al entrar las luces están encendidas, NO las apagues. Ni enciendas ninguna: un interruptor hace chispa.\n💥 Solo explota dentro de su rango: metano del 5 al 15 %, butano desde el 1,8 %.\n📟 El explosímetro no mide gas: mide el % del límite inferior (LII). 100 % = ya puede explotar. Zona segura: por debajo del 10 %.\n👃 El gas no huele: le añaden un odorizante (mercaptano).\n\nHa caído en Jaén, Sevilla, Granada y Burgos.\n\n💬 ¿Opositas a bombero en España? Comenta GAS y te mando gratis sus preguntas de examen.\n✅ Cuenta gratis: 20 preguntas al día de exámenes reales, sin tarjeta.\n\n#bomberos #oposicionesbombero #fugadegas #oposicionesespaña #bombero\n.\n.\n.\n📚 Fuentes: exámenes de bombero de Jaén (el gas natural va a zonas elevadas), Sevilla (no apagar las luces), Granada (rango de inflamabilidad), Burgos (odorizante) y León (metano 5-15 %). Temario de Bombero Flash, tema 2 (Química): densidades relativas, rangos de inflamabilidad y explosímetro.",
       "ia": false,
-      "estado": "pendiente",
+      "estado": "publicando",
       "palabra_linkdm": "GAS",
-      "portada_ms": 4300
+      "portada_ms": 4300,
+      "publicando_desde": "2026-11-21T19:21+01:00"
     }
   ]
 }
