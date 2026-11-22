@@ -1215,9 +1215,10 @@
       "imagenes": [],
       "texto": "⚡ Examen de bombero: accidente con un coche eléctrico. Ves los cables naranjas. ¿Los cortas?\n\n❌ Nunca. Los cables naranjas son de alta tensión (hasta 750 V). No se cortan ni se tocan.\n⚠️ La trampa: parado y en silencio… pero en el cuadro pone READY. Está en marcha: si se pisa el acelerador, se mueve.\n\n✅ Así se hace:\n1️⃣ Calzar, freno de mano, contacto apagado y la llave a varios metros.\n2️⃣ Desconectar la batería de 12 V y el interruptor de servicio.\n3️⃣ Esperar: los condensadores mantienen la tensión unos minutos (en algún modelo, 10).\n🔥 Si arde la batería: agua abundante y continua (miles de litros) y siempre con ERA por los gases tóxicos. Puede reavivarse horas después.\n\nHa caído en Almería, Córdoba, Huesca y Burgos.\n\n💬 ¿Opositas a bombero en España? Comenta ELÉCTRICO y te mando gratis sus preguntas de examen.\n✅ Cuenta gratis: 20 preguntas al día de exámenes reales, sin tarjeta.\n\n#bomberos #oposicionesbombero #cocheelectrico #oposicionesespaña #bombero\n.\n.\n.\n📚 Fuentes: exámenes de bombero de Almería (no cortar el cable naranja), Córdoba (cableado naranja), Huesca (indicador READY) y Burgos (batería auxiliar de 12 V). Temario de Bombero Flash, tema 16 (incendios de vehículos) y tema 22 (rescate en accidentes de tráfico).",
       "ia": false,
-      "estado": "pendiente",
+      "estado": "publicando",
       "palabra_linkdm": "ELÉCTRICO",
-      "portada_ms": 5400
+      "portada_ms": 5400,
+      "publicando_desde": "2026-11-22T13:02+01:00"
     },
     {
       "id": "reel_24_flashover",
