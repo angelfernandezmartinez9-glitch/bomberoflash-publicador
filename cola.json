@@ -1489,6 +1489,128 @@
       "texto": "¿230 o 400 V? ¿Interruptor o seccionador primero? ⚡\n\nEl tema de electricidad está lleno de trampas:\n✔ Fase-neutro 230 V; entre fases 400 V.\n✔ Muy baja, usual y especial: hasta 50, 500 y 1.000 V en alterna.\n✔ 66 kV es de segunda categoría; 230 kV, especial.\n✔ Para cortar: primero interruptores, después seccionadores.\n✔ Las 5 reglas de oro, en orden.\n✔ Distancias: 3, 5 y 7 m; el extintor, de 0,5 a 4 m.\n\n¿Cuántas acertaste?\n👉 bomberoflash.es · 7 días de prueba (enlace en la bio).\n\n#oposicionesbombero #bomberos #riesgoelectrico #oposiciones #bomberoflash",
       "ia": false,
       "estado": "pendiente"
+    },
+    {
+      "id": "carrusel_23-mapas",
+      "fecha": "2026-11-30 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/23-mapas_01.jpg",
+        "media/carruseles-apuntes/23-mapas_02.jpg",
+        "media/carruseles-apuntes/23-mapas_03.jpg",
+        "media/carruseles-apuntes/23-mapas_04.jpg",
+        "media/carruseles-apuntes/23-mapas_05.jpg",
+        "media/carruseles-apuntes/23-mapas_06.jpg",
+        "media/carruseles-apuntes/23-mapas_07.jpg",
+        "media/carruseles-apuntes/23-mapas_08.jpg",
+        "media/carruseles-apuntes/23-mapas_09.jpg",
+        "media/carruseles-apuntes/23-mapas_10.jpg"
+      ],
+      "texto": "4 cm en un mapa 1:25.000. ¿Cuántos metros son? Tienes 5 segundos. 🗺️\n\nLas 8 trampas de cartografía que más se fallan en el examen de bombero:\n✔ Quita dos ceros: en 1:25.000, 1 cm son 250 m.\n✔ La escala más grande es la del denominador más pequeño.\n✔ Con superficies, el denominador va al cuadrado.\n✔ La equidistancia es diferencia de altura, no separación en el papel.\n✔ Vaguada: la V apunta hacia arriba. Collado: el punto más bajo de la cresta.\n✔ Huso, vertical y con número; zona, horizontal y con letra.\n✔ La declinación cambia con los años; la convergencia, no.\n✔ Viento de 180°: viene del sur.\n\n¿Cuántas te sabías?\n💬 Comenta FLASH y te mando el enlace para probar Bombero Flash 7 días.\n\n#oposicionesbombero #bomberos #cartografia #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "carrusel_24-excarcelacion",
+      "fecha": "2026-12-01 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/24-excarcelacion_01.jpg",
+        "media/carruseles-apuntes/24-excarcelacion_02.jpg",
+        "media/carruseles-apuntes/24-excarcelacion_03.jpg",
+        "media/carruseles-apuntes/24-excarcelacion_04.jpg",
+        "media/carruseles-apuntes/24-excarcelacion_05.jpg",
+        "media/carruseles-apuntes/24-excarcelacion_06.jpg",
+        "media/carruseles-apuntes/24-excarcelacion_07.jpg",
+        "media/carruseles-apuntes/24-excarcelacion_08.jpg",
+        "media/carruseles-apuntes/24-excarcelacion_09.jpg",
+        "media/carruseles-apuntes/24-excarcelacion_10.jpg"
+      ],
+      "texto": "Airbag del acompañante sin disparar. ¿A cuántos cm te pones? 13, 26, 38 o 52. 🚗\n\nRepaso de rescate en accidentes de tráfico, como en la pizarra del parque:\n✔ Zona caliente 2‑5 m, templada 5‑10 m, fría para el público.\n✔ Pilares A‑B‑C‑D, siempre de delante hacia atrás.\n✔ Distancias a los airbags sin disparar.\n✔ 10 minutos de platino dentro de la hora de oro.\n✔ Calzos, bloques y puntales: cómo se estabiliza.\n✔ C‑R‑D‑C‑C‑R: el orden de la maniobra.\n✔ Seguridad activa, pasiva y terciaria.\n✔ Coches eléctricos y trenes: 25 kV alterna y 3 kV continua.\n\nGuárdalo para repasarlo antes del examen.\n🔗 Prueba Bombero Flash 7 días: tienes el enlace en la bio.\n\n#oposicionesbombero #bomberos #excarcelacion #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente"
+    },
+    {
+      "id": "carrusel_25-bombas",
+      "fecha": "2026-12-02 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/25-bombas_01.jpg",
+        "media/carruseles-apuntes/25-bombas_02.jpg",
+        "media/carruseles-apuntes/25-bombas_03.jpg",
+        "media/carruseles-apuntes/25-bombas_04.jpg",
+        "media/carruseles-apuntes/25-bombas_05.jpg",
+        "media/carruseles-apuntes/25-bombas_06.jpg",
+        "media/carruseles-apuntes/25-bombas_07.jpg",
+        "media/carruseles-apuntes/25-bombas_08.jpg",
+        "media/carruseles-apuntes/25-bombas_09.jpg",
+        "media/carruseles-apuntes/25-bombas_10.jpg"
+      ],
+      "texto": "Garaje inundado y sin luz. ¿Qué bomba sacas? Una te llena el garaje de monóxido. 🚒\n\nLas trampas del tema de bombas:\n✔ El rodete da velocidad; la voluta la convierte en presión.\n✔ En serie se suma presión; en paralelo, caudal.\n✔ Doblas las rpm: caudal ×2, presión ×4, potencia ×8.\n✔ El techo teórico de aspiración son 10,33 m.\n✔ Cebado, descebado y cavitación no son lo mismo.\n✔ FPN 10‑2000: primero la presión. Bb 16/8: primero el caudal.\n\n¿Cuántas acertaste?\n👉 bomberoflash.es · 7 días de prueba (enlace en la bio).\n\n#oposicionesbombero #bomberos #bombas #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente"
+    },
+    {
+      "id": "carrusel_26-vehiculos",
+      "fecha": "2026-12-03 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/26-vehiculos_01.jpg",
+        "media/carruseles-apuntes/26-vehiculos_02.jpg",
+        "media/carruseles-apuntes/26-vehiculos_03.jpg",
+        "media/carruseles-apuntes/26-vehiculos_04.jpg",
+        "media/carruseles-apuntes/26-vehiculos_05.jpg",
+        "media/carruseles-apuntes/26-vehiculos_06.jpg",
+        "media/carruseles-apuntes/26-vehiculos_07.jpg",
+        "media/carruseles-apuntes/26-vehiculos_08.jpg",
+        "media/carruseles-apuntes/26-vehiculos_09.jpg",
+        "media/carruseles-apuntes/26-vehiculos_10.jpg"
+      ],
+      "texto": "BUP, BRP, BUM y BFL. Una de estas autobombas no existe. ¿La ves? 🚒\n\nVehículos de bomberos, lo que cae en el examen:\n✔ B + dónde trabaja (U, R, F, N) + peso (L, P): 8 autobombas. No hay «medias».\n✔ La BUP lleva más agua que la BRP: 3.200 frente a 2.400 l.\n✔ Cisternas mínimas: 800, 2.400, 3.200 y 8.000 l.\n✔ FER sí existe. FRE, VGL y BCU, no.\n✔ Clases por masa: 3 · 7,5 · 16 t.\n✔ La categoría 2 es la rural; la 3, la todo terreno.\n✔ Autoescala: 75° como máximo, no 90°.\n\n¿Cuántas sabías?\n🔗 Prueba Bombero Flash 7 días: tienes el enlace en la bio.\n\n#oposicionesbombero #bomberos #vehiculosdebomberos #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente"
+    },
+    {
+      "id": "carrusel_27-cte",
+      "fecha": "2026-12-04 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/27-cte_01.jpg",
+        "media/carruseles-apuntes/27-cte_02.jpg",
+        "media/carruseles-apuntes/27-cte_03.jpg",
+        "media/carruseles-apuntes/27-cte_04.jpg",
+        "media/carruseles-apuntes/27-cte_05.jpg",
+        "media/carruseles-apuntes/27-cte_06.jpg",
+        "media/carruseles-apuntes/27-cte_07.jpg",
+        "media/carruseles-apuntes/27-cte_08.jpg",
+        "media/carruseles-apuntes/27-cte_09.jpg",
+        "media/carruseles-apuntes/27-cte_10.jpg"
+      ],
+      "texto": "Hotel con dos salidas. ¿25, 35 o 50 m hasta la salida? 🏨\n\nLas cifras del CTE DB‑SI que más se cruzan en el examen de bombero:\n✔ Recorridos: 25 m con una salida y 50 m con varias. 35 m donde se duerme.\n✔ +25 % y sectores dobles solo con extinción automática.\n✔ Sectores: casi siempre 2.500 m².\n✔ Ocupación: vivienda 20, oficinas 10, almacén 40 m² por persona.\n✔ Residencia de ancianos: uso Hospitalario.\n✔ Anchuras: P/200 y P/160.\n✔ Escaleras en viviendas: 14 y 28 m.\n✔ Vial de bomberos: 3,5 × 4,5 m.\n\n¿Cuántas acertaste?\n👉 bomberoflash.es · 7 días de prueba (enlace en la bio).\n\n#oposicionesbombero #bomberos #cte #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente"
+    },
+    {
+      "id": "carrusel_28-hidraulica",
+      "fecha": "2026-12-05 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/28-hidraulica_01.jpg",
+        "media/carruseles-apuntes/28-hidraulica_02.jpg",
+        "media/carruseles-apuntes/28-hidraulica_03.jpg",
+        "media/carruseles-apuntes/28-hidraulica_04.jpg",
+        "media/carruseles-apuntes/28-hidraulica_05.jpg",
+        "media/carruseles-apuntes/28-hidraulica_06.jpg",
+        "media/carruseles-apuntes/28-hidraulica_07.jpg",
+        "media/carruseles-apuntes/28-hidraulica_08.jpg",
+        "media/carruseles-apuntes/28-hidraulica_09.jpg",
+        "media/carruseles-apuntes/28-hidraulica_10.jpg"
+      ],
+      "texto": "7.º piso, 3 mangueras de 25 a 230 l/min. ¿Cuántos bar necesitas en bomba? 💧\n\nHidráulica sin calculadora, como en el examen de bombero:\n✔ PB = PL + HG + PC: lanza + altura + pérdidas = bomba.\n✔ La regla de la mano, dedo a dedo.\n✔ Por qué sube el manómetro al cerrar la lanza.\n✔ 25 o 70 mm: la misma presión en la base.\n✔ Diámetro a la mitad: pérdidas × 32.\n✔ La reacción en lanza: R = 2 · P · S.\n\n¿Cuántas acertaste?\n💬 Comenta FLASH y te mando el enlace para probar Bombero Flash 7 días.\n\n#oposicionesbombero #bomberos #hidraulica #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
     }
   ]
 }
