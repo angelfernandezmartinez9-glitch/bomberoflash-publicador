@@ -1611,6 +1611,67 @@
       "ia": false,
       "estado": "pendiente",
       "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "carrusel_29-epi",
+      "fecha": "2026-12-06 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/29-epi_01.jpg",
+        "media/carruseles-apuntes/29-epi_02.jpg",
+        "media/carruseles-apuntes/29-epi_03.jpg",
+        "media/carruseles-apuntes/29-epi_04.jpg",
+        "media/carruseles-apuntes/29-epi_05.jpg",
+        "media/carruseles-apuntes/29-epi_06.jpg",
+        "media/carruseles-apuntes/29-epi_07.jpg",
+        "media/carruseles-apuntes/29-epi_08.jpg",
+        "media/carruseles-apuntes/29-epi_09.jpg",
+        "media/carruseles-apuntes/29-epi_10.jpg"
+      ],
+      "texto": "Fuga de cloro. ¿Entras con traje tipo 3 o nivel III? ☣️\n\nLos EPI que más se cruzan en el examen de bombero:\n✔ Nivel III = tipo 1: el único hermético a los gases.\n✔ Trajes químicos del 1 al 6: el contaminante es más grueso y menos peligroso.\n✔ Categoría I hasta 50 °C; categoría III desde 100 °C.\n✔ CE 0123: el número es el organismo notificado, no el lote.\n✔ EN 469: X calor, Y agua, Z vapor.\n✔ Cascos 443, 16471, 16473, 12492 y 14458.\n✔ Guantes 388, 407 y 659 (mínimos 3‑2‑3‑3).\n✔ Botas: A antiestática, I aislante.\n\n¿Cuántas sabías?\n🔗 Prueba Bombero Flash 7 días: tienes el enlace en la bio.\n\n#oposicionesbombero #bomberos #epi #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente"
+    },
+    {
+      "id": "carrusel_30-formulas",
+      "fecha": "2026-12-07 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/30-formulas_01.jpg",
+        "media/carruseles-apuntes/30-formulas_02.jpg",
+        "media/carruseles-apuntes/30-formulas_03.jpg",
+        "media/carruseles-apuntes/30-formulas_04.jpg",
+        "media/carruseles-apuntes/30-formulas_05.jpg",
+        "media/carruseles-apuntes/30-formulas_06.jpg",
+        "media/carruseles-apuntes/30-formulas_07.jpg",
+        "media/carruseles-apuntes/30-formulas_08.jpg",
+        "media/carruseles-apuntes/30-formulas_09.jpg",
+        "media/carruseles-apuntes/30-formulas_10.jpg"
+      ],
+      "texto": "Botella de 6 l a 300 bar. Gastas 50 l/min. ¿Cuántos minutos trabajas? ⏱️\n\nLas fórmulas del examen de bombero, sin calculadora:\n✔ Autonomía de trabajo: restas la alarma (55 ± 5 bar).\n✔ 10 m de agua = 1 bar. 1 bar son 100.000 Pa.\n✔ PB = PL + HG + PC y F = P × S.\n✔ Autoescala: H = L · sen 75°.\n✔ Mapas: quita dos ceros (y al cuadrado con superficies).\n✔ Explosímetro: % del LII, no de gas.\n✔ De l/min a m³/h: × 0,06. Reacción: R = 2 · P · S.\n\n¿Cuántas sabías?\n👉 bomberoflash.es · 7 días de prueba (enlace en la bio).\n\n#oposicionesbombero #bomberos #formulas #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente"
+    },
+    {
+      "id": "carrusel_31-altura",
+      "fecha": "2026-12-08 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/31-altura_01.jpg",
+        "media/carruseles-apuntes/31-altura_02.jpg",
+        "media/carruseles-apuntes/31-altura_03.jpg",
+        "media/carruseles-apuntes/31-altura_04.jpg",
+        "media/carruseles-apuntes/31-altura_05.jpg",
+        "media/carruseles-apuntes/31-altura_06.jpg",
+        "media/carruseles-apuntes/31-altura_07.jpg",
+        "media/carruseles-apuntes/31-altura_08.jpg",
+        "media/carruseles-apuntes/31-altura_09.jpg",
+        "media/carruseles-apuntes/31-altura_10.jpg"
+      ],
+      "texto": "Dos anclajes a 120°. ¿Cuánto carga cada uno? 🧗\n\nRescate en altura, lo que cae en el examen de bombero:\n✔ 0° 50 %, 60° 58 %, 120° 100 % en cada anclaje.\n✔ Factor de caída = caída ÷ cuerda. En rescate, nunca más de 1.\n✔ El peso no entra en el factor.\n✔ Doble cuerda: EN 12841 A, B y C.\n✔ Semiestáticas EN 1891: tipo A 22 kN, tipo B 18 kN.\n✔ Anticaídas solo en el dorsal y el esternal.\n✔ Nudos: nueve, ocho, gaza simple, ballestrinque.\n\n¿Cuántas acertaste?\n💬 Comenta FLASH y te mando el enlace para probar Bombero Flash 7 días.\n\n#oposicionesbombero #bomberos #rescate #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
     }
   ]
 }
