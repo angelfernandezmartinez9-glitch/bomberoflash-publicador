@@ -1428,6 +1428,67 @@
       "estado": "pendiente",
       "palabra_linkdm": "CAPO",
       "portada_ms": 7600
+    },
+    {
+      "id": "carrusel_20-extintores-trampas",
+      "fecha": "2026-11-27 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/20-extintores-trampas_01.jpg",
+        "media/carruseles-apuntes/20-extintores-trampas_02.jpg",
+        "media/carruseles-apuntes/20-extintores-trampas_03.jpg",
+        "media/carruseles-apuntes/20-extintores-trampas_04.jpg",
+        "media/carruseles-apuntes/20-extintores-trampas_05.jpg",
+        "media/carruseles-apuntes/20-extintores-trampas_06.jpg",
+        "media/carruseles-apuntes/20-extintores-trampas_07.jpg",
+        "media/carruseles-apuntes/20-extintores-trampas_08.jpg",
+        "media/carruseles-apuntes/20-extintores-trampas_09.jpg",
+        "media/carruseles-apuntes/20-extintores-trampas_10.jpg"
+      ],
+      "texto": "¿Un extintor de agua de 6 kg? No existe. 🧯\n\n8 trampas de extintores que caen en el examen de bombero:\n1. Agua y espuma se cargan en litros; polvo y CO₂, en kilos.\n2. Solo los de presión incorporada llevan manómetro.\n3. 113B son 113 litros en la bandeja, agua incluida.\n4. Todos los extintores son rojos: el agente lo dice la etiqueta.\n5. La parte superior, entre 80 y 120 cm del suelo.\n6. 15 m de recorrido, no en línea recta (10 m en riesgo especial alto).\n7. Manguera obligatoria con más de 3 kg o 3 L.\n8. Ensayo a 35 kV no significa que sirva para 35.000 V.\n\n¿Cuántas te sabías? Déjalo en comentarios.\n💬 Comenta FLASH y te mando el enlace para probar Bombero Flash 7 días.\n\n#oposicionesbombero #bomberos #extintores #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "carrusel_21-bie-hidrantes",
+      "fecha": "2026-11-28 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/21-bie-hidrantes_01.jpg",
+        "media/carruseles-apuntes/21-bie-hidrantes_02.jpg",
+        "media/carruseles-apuntes/21-bie-hidrantes_03.jpg",
+        "media/carruseles-apuntes/21-bie-hidrantes_04.jpg",
+        "media/carruseles-apuntes/21-bie-hidrantes_05.jpg",
+        "media/carruseles-apuntes/21-bie-hidrantes_06.jpg",
+        "media/carruseles-apuntes/21-bie-hidrantes_07.jpg",
+        "media/carruseles-apuntes/21-bie-hidrantes_08.jpg",
+        "media/carruseles-apuntes/21-bie-hidrantes_09.jpg",
+        "media/carruseles-apuntes/21-bie-hidrantes_10.jpg"
+      ],
+      "texto": "25 o 45, 30 o 20, 15 o 25… Los números de las instalaciones contra incendios que más se cruzan en el examen. 🚒\n\n✔ BIE de 25 mm: semirrígida, 30 m, radio 35 m.\n✔ BIE de 45 mm: plana, 20 m, radio 25 m.\n✔ Hidrante: 500 l/min por boca.\n✔ Pulsador a 25 m; extintor a 15 m.\n✔ Sirena: 65 dB(A). Señal visual con más de 60 dB(A) de ruido.\n✔ Columna seca, colores de los rociadores y 4 trampas rápidas.\n\nGuárdalo para repasarlo antes del examen.\n🔗 Prueba Bombero Flash 7 días: tienes el enlace en la bio.\n\n#oposicionesbombero #bomberos #proteccioncontraincendios #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente"
+    },
+    {
+      "id": "carrusel_22-electricidad-trampas",
+      "fecha": "2026-11-29 19:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-apuntes/22-electricidad-trampas_01.jpg",
+        "media/carruseles-apuntes/22-electricidad-trampas_02.jpg",
+        "media/carruseles-apuntes/22-electricidad-trampas_03.jpg",
+        "media/carruseles-apuntes/22-electricidad-trampas_04.jpg",
+        "media/carruseles-apuntes/22-electricidad-trampas_05.jpg",
+        "media/carruseles-apuntes/22-electricidad-trampas_06.jpg",
+        "media/carruseles-apuntes/22-electricidad-trampas_07.jpg",
+        "media/carruseles-apuntes/22-electricidad-trampas_08.jpg",
+        "media/carruseles-apuntes/22-electricidad-trampas_09.jpg",
+        "media/carruseles-apuntes/22-electricidad-trampas_10.jpg"
+      ],
+      "texto": "¿230 o 400 V? ¿Interruptor o seccionador primero? ⚡\n\nEl tema de electricidad está lleno de trampas:\n✔ Fase-neutro 230 V; entre fases 400 V.\n✔ Muy baja, usual y especial: hasta 50, 500 y 1.000 V en alterna.\n✔ 66 kV es de segunda categoría; 230 kV, especial.\n✔ Para cortar: primero interruptores, después seccionadores.\n✔ Las 5 reglas de oro, en orden.\n✔ Distancias: 3, 5 y 7 m; el extintor, de 0,5 a 4 m.\n\n¿Cuántas acertaste?\n👉 bomberoflash.es · 7 días de prueba (enlace en la bio).\n\n#oposicionesbombero #bomberos #riesgoelectrico #oposiciones #bomberoflash",
+      "ia": false,
+      "estado": "pendiente"
     }
   ]
 }
