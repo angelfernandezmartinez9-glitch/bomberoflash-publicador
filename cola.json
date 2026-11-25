@@ -1901,6 +1901,18 @@
       "estado": "pendiente",
       "palabra_linkdm": "CARGA",
       "portada_ms": 6000
+    },
+    {
+      "id": "reel_48_paralelo",
+      "fecha": "2026-11-26 20:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-48-paralelo.mp4",
+      "imagenes": [],
+      "texto": "💧 Examen de bombero: ¿qué pasa cuando partes una manguera en dos?\n\nTu línea ya no da más agua: la bomba aprieta, pero la presión se queda por el camino. La solución no es apretar más: es tender una segunda línea al lado.\n\n📐 Por qué funciona: las pérdidas de carga van con el cuadrado del caudal. Cada línea lleva la mitad del agua → (½)² = ¼ → cada una pierde 4 veces menos.\nEjemplo: 100 m de manguera de 45 con 500 l/min pierden unos 8 bar; con dos líneas de 250 l/min, unos 2 bar cada una.\n\n✅ Para llevar mucha agua lejos: 1️⃣ más diámetro (de 45 a 70) y 2️⃣ si no basta, líneas en paralelo.\n\n🔱 Bifurcación: de una de 70 salen dos de 45, con la misma presión y la mitad de caudal cada una.\n⚠️ La trampa: si tu compañero cierra su lanza, por la línea común pasa menos agua y se pierde menos… y a tu lanza le llega de golpe más presión: más caudal y un tirón. Avisaos antes de cerrar.\n\nHa caído en Almería Poniente (2026) y Santander (2026).\n\n📲 Esto y casi 480 exámenes reales, en Bombero Flash. Pruébala 7 días: enlace en la bio.\n\n#bomberos #oposicionesbombero #hidraulica #oposicionesespaña #bombero\n.\n.\n.\n📚 Fuentes: Temario de Bombero Flash, tema 19 (Hidráulica): 6.2 (pérdidas proporcionales al cuadrado del caudal), 6.3 (tabla de pérdidas por 100 m: 45 mm, 250 l/min ≈ 2 bar; 500 l/min ≈ 8 bar) y 6.5 (líneas en paralelo y bifurcaciones; qué pasa al cerrar una de las dos lanzas). Exámenes: Almería Poniente 2026 (bifurcación 70 → 2 × 45: misma presión y menor caudal) y Ayuntamiento de Santander 2026 (manguera más corta o de mayor sección).",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": null,
+      "portada_ms": 16800
     }
   ]
 }
