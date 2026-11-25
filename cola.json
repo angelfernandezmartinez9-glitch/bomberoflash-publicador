@@ -905,10 +905,10 @@
       "imagenes": [
         "media/historias-2026-11-16/4-gratis.jpg"
       ],
-      "estado": "en_revision",
+      "estado": "archivado",
       "texto": "",
       "ia": false,
-      "nota": "Cuenta gratis o 7 días gratis, bomberoflash.es/planes. Foto p29. Sin sticker de enlace: la API no lo pone. Pausada: el usuario quiere ver las historias antes de publicarlas."
+      "nota": "Cuenta gratis o 7 días gratis, bomberoflash.es/planes. Foto p29. Sin sticker de enlace: la API no lo pone. Pausada: el usuario quiere ver las historias antes de publicarlas. 25-11: sustituida por historia_asi_se_entrena / historia_la_plaza (sin «cuenta gratis»)."
     },
     {
       "id": "historia_plaza_noche",
@@ -917,10 +917,10 @@
       "imagenes": [
         "media/historias-2026-11-16/5-noche.jpg"
       ],
-      "estado": "en_revision",
+      "estado": "archivado",
       "texto": "",
       "ia": false,
-      "nota": "La plaza no se regala. 7 días gratis. Foto p38. Sin sticker de enlace. Pausada: el usuario quiere ver las historias antes de publicarlas."
+      "nota": "La plaza no se regala. 7 días gratis. Foto p38. Sin sticker de enlace. Pausada: el usuario quiere ver las historias antes de publicarlas. 25-11: sustituida por historia_asi_se_entrena / historia_la_plaza (sin «cuenta gratis»)."
     },
     {
       "id": "carrusel_03-cuenta-gratis",
@@ -1056,7 +1056,7 @@
         "media/carruseles-tus-fotos/18-asi-se-prepara_04.jpg",
         "media/carruseles-tus-fotos/18-asi-se-prepara_05.jpg"
       ],
-      "texto": "El físico se entrena. El temario también. 344 exámenes reales, más de 114.000 preguntas, psicotécnicos y test de personalidad.\n\n💬 Comenta FLASH y te mando el enlace para probarlo todo 7 días.\n\n#oposicionesbombero #bomberos #opositores #oposiciones2026 #bomberoflash",
+      "texto": "El físico se entrena. El temario también. Más de 380 exámenes reales, más de 114.000 preguntas, psicotécnicos y test de personalidad.\n\n💬 Comenta FLASH y te mando el enlace para probarlo todo 7 días.\n\n#oposicionesbombero #bomberos #opositores #oposiciones2026 #bomberoflash",
       "ia": false,
       "estado": "pendiente",
       "palabra_linkdm": "FLASH"
@@ -1675,6 +1675,104 @@
       "ia": false,
       "estado": "pendiente",
       "palabra_linkdm": "FLASH"
+    },
+    {
+      "id": "historia_b25_oferta",
+      "fecha": "2026-11-26 11:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-26/h1-oferta.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "BOMBERO25: primer mes a 19,95 €. Foto p19. Aprobada 25-11."
+    },
+    {
+      "id": "historia_b25_como",
+      "fecha": "2026-11-26 11:01",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-26/h2-como.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "BOMBERO25: cómo usarlo en 3 pasos. Foto p384. Aprobada 25-11."
+    },
+    {
+      "id": "historia_b25_que_tienes",
+      "fecha": "2026-11-26 11:02",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-26/h3-que-tienes.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "BOMBERO25: +380 exámenes, +114.000 preguntas, psicotécnicos. Foto p7. Aprobada 25-11."
+    },
+    {
+      "id": "carrusel_b25-oferta",
+      "fecha": "2026-11-27 13:30",
+      "tipo": "carrusel",
+      "imagenes": [
+        "media/carruseles-2026-11-27/bombero25_01.jpg",
+        "media/carruseles-2026-11-27/bombero25_02.jpg",
+        "media/carruseles-2026-11-27/bombero25_03.jpg"
+      ],
+      "texto": "¿Opositas a bombero? Tu primer mes de Bombero Flash a 19,95 € con el código BOMBERO25 🔥\n\nMás de 380 exámenes oficiales de bombero, más de 114.000 preguntas tipo test, psicotécnicos con tiempo y test de personalidad.\n\n1️⃣ Entra en bomberoflash.es/planes (enlace en la bio)\n2️⃣ Empieza tu prueba de 7 días\n3️⃣ Al poner la tarjeta, escribe BOMBERO25\n\nSolo 25 plazas, hasta el domingo 30 a las 23:59.\n\n#oposicionesbombero #bomberos #opositores #oposiciones2026 #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Anuncio oferta BOMBERO25 (cupón CUENTAGRATIS1995). Fotos p19 y p384. Aprobado 25-11."
+    },
+    {
+      "id": "historia_asi_se_entrena",
+      "fecha": "2026-11-27 17:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-26/h5-asi-se-entrena.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "Sustituye a historia_gratis: sin «cuenta gratis», prueba de 7 días. Foto p29. Aprobada 25-11."
+    },
+    {
+      "id": "historia_la_plaza",
+      "fecha": "2026-11-28 17:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-26/h6-la-plaza.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "Sustituye a historia_plaza_noche. Foto p24. Aprobada 25-11."
+    },
+    {
+      "id": "historia_b25_ultimo_dia",
+      "fecha": "2026-11-30 10:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-26/h4-ultimo-dia.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "BOMBERO25: último día. Foto p11. Aprobada 25-11."
+    },
+    {
+      "id": "historia_b25_como_2",
+      "fecha": "2026-11-30 10:01",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-26/h2-como.jpg"
+      ],
+      "estado": "pendiente",
+      "texto": "",
+      "ia": false,
+      "nota": "BOMBERO25: cómo usarlo (repetida el último día). Aprobada 25-11."
     }
   ]
 }
