@@ -1773,6 +1773,71 @@
       "texto": "",
       "ia": false,
       "nota": "BOMBERO25: cómo usarlo (repetida el último día). Aprobada 25-11."
+    },
+    {
+      "id": "reel_39_mapa",
+      "fecha": "2026-12-01 21:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-39-mapa.mp4",
+      "imagenes": [],
+      "texto": "¿Sigues buscando exámenes de bombero en PDFs sueltos? 📄❌\n\nEn Bombero Flash tocas tu comunidad en el mapa y tienes los exámenes oficiales que cayeron de verdad: más de 380, de 2010 a 2026. Contestas como en el examen y, si fallas, te explica por qué.\n\n💬 ¿De qué comunidad opositas? Comenta MAPA y te paso la prueba de 7 días 🚒\n\n#oposicionesbombero #bomberos #opositores #examenbombero #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "MAPA",
+      "portada_ms": 1000,
+      "nota": "Reel de la app/Telegram (hilo «Crear vídeos enseñando la app y el Telegram», cuenta demo). Programado 25-11 a petición del propietario. Final rehecho sin «gratis»: prueba de 7 días."
+    },
+    {
+      "id": "reel_40_grupo",
+      "fecha": "2026-12-02 21:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-40-grupo.mp4",
+      "imagenes": [],
+      "texto": "¿Estudias solo para bombero? Únete a nuestro grupo de Telegram 📲\n\n10:00 y 16:00 pregunta de examen oficial · 21:00 pregunta de libro · explicación completa por privado · resumen y top 3 por la mañana · reto del domingo con ranking. Gratis.\n\n💬 Comenta GRUPO y te paso el enlace.\n\n#oposicionesbombero #telegram #bomberos #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "GRUPO",
+      "portada_ms": 1000,
+      "nota": "Reel de la app/Telegram (hilo «Crear vídeos enseñando la app y el Telegram», cuenta demo). Programado 25-11 a petición del propietario."
+    },
+    {
+      "id": "reel_41_temas",
+      "fecha": "2026-12-03 21:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-41-temas.mp4",
+      "imagenes": [],
+      "texto": "¿Qué temas caen más en el examen de bombero? 🔥\n\nOrdenamos las preguntas de cientos de exámenes oficiales por tema: tocas una tarjeta y haces un test solo con lo que cae. Y si te falta teoría, apuntes de cada tema.\n\n💬 Comenta TEMAS y te mando la prueba de 7 días.\n\n#oposicionesbombero #temariobombero #bomberos #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "TEMAS",
+      "portada_ms": 1000,
+      "nota": "Reel de la app/Telegram (hilo «Crear vídeos enseñando la app y el Telegram», cuenta demo). Programado 25-11 a petición del propietario. Final rehecho sin «gratis»: prueba de 7 días."
+    },
+    {
+      "id": "reel_42_bot",
+      "fecha": "2026-12-04 21:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-42-bot.mp4",
+      "imagenes": [],
+      "texto": "Exámenes oficiales de bombero dentro de Telegram 🤖\n\nEliges comunidad y provincia, haces el test, ves la explicación y tu nota, repasas fallos o retas a un compañero. Preguntas gratis cada día.\n\n💬 ¿De qué provincia opositas? Comenta BOT y te lo paso.\n\n#oposicionesbombero #telegram #bomberos #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "BOT",
+      "portada_ms": 1000,
+      "nota": "Reel de la app/Telegram (hilo «Crear vídeos enseñando la app y el Telegram», cuenta demo). Programado 25-11 a petición del propietario."
+    },
+    {
+      "id": "reel_43_juego",
+      "fecha": "2026-12-05 21:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-43-juego.mp4",
+      "imagenes": [],
+      "texto": "La oposición se hace larga… así que la convertimos en un juego 🎮\n\nBatalla Test (campaña, supervivencia y duelo contra la máquina) con preguntas de exámenes oficiales, psicotécnicos de dominós, aptitudes y naipes, y tus fallos guardados con su explicación.\n\n💬 Comenta JUEGO y pruébalo 7 días.\n\n#oposicionesbombero #psicotecnicos #bomberos #opositores #bomberoflash",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": "JUEGO",
+      "portada_ms": 1000,
+      "nota": "Reel de la app/Telegram (hilo «Crear vídeos enseñando la app y el Telegram», cuenta demo). Programado 25-11 a petición del propietario. Final rehecho sin «gratis»: prueba de 7 días."
     }
   ]
 }
