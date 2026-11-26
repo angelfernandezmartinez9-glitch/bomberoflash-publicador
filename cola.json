@@ -669,8 +669,9 @@
       ],
       "texto": "Bar, atmósferas, kg/cm² y metros de columna de agua. Las equivalencias que tienes que tener claras.\n\n💬 Comenta FLASH y te damos acceso a BomberoFlash.\n\n#oposicionesbombero #hidraulica #bomberos #opositores #bomberoflash",
       "ia": false,
-      "estado": "pendiente",
-      "palabra_linkdm": "FLASH"
+      "estado": "publicando",
+      "palabra_linkdm": "FLASH",
+      "publicando_desde": "2026-11-26T13:30+01:00"
     },
     {
       "id": "historia_humo_1",
