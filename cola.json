@@ -1707,10 +1707,11 @@
       "imagenes": [
         "media/historias-2026-11-26/h2-como.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "publicando",
       "texto": "",
       "ia": false,
-      "nota": "BOMBERO25: cómo usarlo en 3 pasos. Foto p384. Aprobada 25-11."
+      "nota": "BOMBERO25: cómo usarlo en 3 pasos. Foto p384. Aprobada 25-11.",
+      "publicando_desde": "2026-11-26T11:02+01:00"
     },
     {
       "id": "historia_b25_que_tienes",
