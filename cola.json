@@ -1692,10 +1692,11 @@
       "imagenes": [
         "media/historias-2026-11-26/h1-oferta.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "publicando",
       "texto": "",
       "ia": false,
-      "nota": "BOMBERO25: primer mes a 19,95 €. Foto p19. Aprobada 25-11."
+      "nota": "BOMBERO25: primer mes a 19,95 €. Foto p19. Aprobada 25-11.",
+      "publicando_desde": "2026-11-26T11:02+01:00"
     },
     {
       "id": "historia_b25_como",
