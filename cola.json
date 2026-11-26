@@ -1722,10 +1722,11 @@
       "imagenes": [
         "media/historias-2026-11-26/h3-que-tienes.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "publicando",
       "texto": "",
       "ia": false,
-      "nota": "BOMBERO25: +380 exámenes, +114.000 preguntas, psicotécnicos. Foto p7. Aprobada 25-11."
+      "nota": "BOMBERO25: +380 exámenes, +114.000 preguntas, psicotécnicos. Foto p7. Aprobada 25-11.",
+      "publicando_desde": "2026-11-26T11:02+01:00"
     },
     {
       "id": "carrusel_b25-oferta",
