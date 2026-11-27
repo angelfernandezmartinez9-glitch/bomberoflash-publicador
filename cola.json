@@ -1769,10 +1769,11 @@
       "imagenes": [
         "media/historias-2026-11-26/h5-asi-se-entrena.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "publicando",
       "texto": "",
       "ia": false,
-      "nota": "Sustituye a historia_gratis: sin «cuenta gratis», prueba de 7 días. Foto p29. Aprobada 25-11."
+      "nota": "Sustituye a historia_gratis: sin «cuenta gratis», prueba de 7 días. Foto p29. Aprobada 25-11.",
+      "publicando_desde": "2026-11-27T17:01+01:00"
     },
     {
       "id": "historia_la_plaza",
