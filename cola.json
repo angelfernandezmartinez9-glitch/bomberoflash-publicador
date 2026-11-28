@@ -2034,9 +2034,11 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "publicando",
+      "estado": "publicado",
       "nota": "Estilo nuevo (letra Fraunces). Pruébalo 7 días; 22,95 €/mes sin permanencia. Foto p93. Aprobada por el usuario 28-11 11:05.",
-      "publicando_desde": "2026-11-28T17:03+01:00"
+      "instagram_id": "18098483624175144",
+      "enlace": "https://www.instagram.com/stories/bombero_flash/4040471876698281151",
+      "publicado_en": "2026-11-28T17:03+01:00"
     },
     {
       "id": "reel_50_techo",
