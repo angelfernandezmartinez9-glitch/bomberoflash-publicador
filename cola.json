@@ -1796,30 +1796,6 @@
       "nota": "Sustituye a historia_plaza_noche. Foto p24. Aprobada 25-11."
     },
     {
-      "id": "historia_b25_ultimo_dia",
-      "fecha": "2026-11-30 10:00",
-      "tipo": "historia",
-      "imagenes": [
-        "media/historias-2026-11-26/h4-ultimo-dia.jpg"
-      ],
-      "estado": "pendiente",
-      "texto": "",
-      "ia": false,
-      "nota": "BOMBERO25: último día. Foto p11. Aprobada 25-11."
-    },
-    {
-      "id": "historia_b25_como_2",
-      "fecha": "2026-11-30 10:01",
-      "tipo": "historia",
-      "imagenes": [
-        "media/historias-2026-11-26/h2-como.jpg"
-      ],
-      "estado": "pendiente",
-      "texto": "",
-      "ia": false,
-      "nota": "BOMBERO25: cómo usarlo (repetida el último día). Aprobada 25-11."
-    },
-    {
       "id": "reel_39_mapa",
       "fecha": "2026-12-01 21:00",
       "tipo": "reel",
