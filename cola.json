@@ -2034,8 +2034,9 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Estilo nuevo (letra Fraunces). Pruébalo 7 días; 22,95 €/mes sin permanencia. Foto p93. Aprobada por el usuario 28-11 11:05."
+      "estado": "publicando",
+      "nota": "Estilo nuevo (letra Fraunces). Pruébalo 7 días; 22,95 €/mes sin permanencia. Foto p93. Aprobada por el usuario 28-11 11:05.",
+      "publicando_desde": "2026-11-28T17:03+01:00"
     },
     {
       "id": "reel_50_techo",
