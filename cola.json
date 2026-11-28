@@ -2001,8 +2001,9 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Estilo nuevo (letra Fraunces). Más de 500 exámenes oficiales; más del doble que cualquier otra plataforma que publica su cifra; 22,95 €/mes. Foto p14. Aprobada por el usuario 28-11 11:05."
+      "estado": "publicando",
+      "nota": "Estilo nuevo (letra Fraunces). Más de 500 exámenes oficiales; más del doble que cualquier otra plataforma que publica su cifra; 22,95 €/mes. Foto p14. Aprobada por el usuario 28-11 11:05.",
+      "publicando_desde": "2026-11-28T17:01+01:00"
     },
     {
       "id": "historia_c_entrena",
