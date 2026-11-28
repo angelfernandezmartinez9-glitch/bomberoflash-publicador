@@ -1402,7 +1402,7 @@
     },
     {
       "id": "reel_34_boilover",
-      "fecha": "2026-11-28 21:00",
+      "fecha": "2026-12-01 13:00",
       "tipo": "reel",
       "video": "media/reels/reel-34-boilover.mp4",
       "imagenes": [],
@@ -1410,7 +1410,8 @@
       "ia": false,
       "estado": "pendiente",
       "palabra_linkdm": "BOILOVER",
-      "portada_ms": 5000
+      "portada_ms": 5000,
+      "nota": "28-11: movido del 28-11 21:00 al 1-12 13:00 para dejar sitio al reel del backdraft con vídeo real."
     },
     {
       "id": "reel_35_calor",
@@ -1917,9 +1918,10 @@
       "imagenes": [],
       "texto": "💧 Examen de bombero: tu manguera pierde presión por el camino. ¿Qué es peor? A) meterle el doble de agua o B) una manguera la mitad de ancha?\n\n⚠️ Casi todo el mundo dice la A… y es la B, por goleada.\n\n✅ Cómo funcionan las pérdidas de carga:\n1️⃣ Doble de longitud → doble de pérdidas.\n2️⃣ Doble de caudal → 4 veces más (van con el cuadrado del caudal).\n3️⃣ Mitad de diámetro → 32 veces más (quinta potencia: el diámetro manda).\n🪤 Trampas: subir la presión de la bomba no cambia las pérdidas, y con la lanza cerrada son cero.\n🧮 Ejemplo: 4 mangueras de 25 mm a un 4.º piso a 150 l/min → 4 × 1,5 = 6 bar de pérdidas + 1 bar de altura + 7 bar en lanza = 14 bar en bomba.\n\nHa caído en Almería (2021), Albacete (2023) y Cartagena (2026).\n\n💬 ¿Opositas a bombero en España? Comenta CARGA y te mando sus preguntas de examen.\n📲 Más de 450 exámenes reales en Bombero Flash: bomberoflash.es · 7 días de prueba.\n\n#bomberos #oposicionesbombero #hidraulica #oposicionesespaña #bombero\n.\n.\n.\n📚 Fuentes: Temario de Bombero Flash, tema 19 (Hidráulica): 6.1 (qué son; con la lanza cerrada son cero), 6.2 (Darcy-Weisbach: proporcional a la longitud, al cuadrado del caudal e inversa a la quinta potencia del diámetro; no depende de la presión), 6.4 (1 bar cada 10 m de desnivel) y 7.3 (regla de la mano: 4 × 1,5 + 1 + 7 = 14 bar). Exámenes: Ayuntamiento de Almería 2021, Ayuntamiento de Albacete 2023 y Cartagena 2026.",
       "ia": false,
-      "estado": "pendiente",
+      "estado": "publicando",
       "palabra_linkdm": "CARGA",
-      "portada_ms": 6000
+      "portada_ms": 6000,
+      "publicando_desde": "2026-11-28T17:01+01:00"
     },
     {
       "id": "reel_48_paralelo",
@@ -1961,8 +1963,11 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Estilo nuevo (letra Fraunces). La plaza no se regala. Se entrena. Foto p10. Aprobada por el usuario 28-11 11:05."
+      "estado": "publicado",
+      "nota": "Estilo nuevo (letra Fraunces). La plaza no se regala. Se entrena. Foto p10. Aprobada por el usuario 28-11 11:05.",
+      "instagram_id": "18092709389264807",
+      "enlace": "https://www.instagram.com/stories/bombero_flash/4040470769879831658",
+      "publicado_en": "2026-11-28T17:01+01:00"
     },
     {
       "id": "historia_c_500_examenes",
@@ -1973,8 +1978,11 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Estilo nuevo (letra Fraunces). Más de 500 exámenes oficiales; más del doble que cualquier otra plataforma que publica su cifra; 22,95 €/mes. Foto p14. Aprobada por el usuario 28-11 11:05."
+      "estado": "publicado",
+      "nota": "Estilo nuevo (letra Fraunces). Más de 500 exámenes oficiales; más del doble que cualquier otra plataforma que publica su cifra; 22,95 €/mes. Foto p14. Aprobada por el usuario 28-11 11:05.",
+      "instagram_id": "18125377129820101",
+      "enlace": "https://www.instagram.com/stories/bombero_flash/4040470888746430878",
+      "publicado_en": "2026-11-28T17:01+01:00"
     },
     {
       "id": "historia_c_entrena",
@@ -2008,11 +2016,509 @@
       "imagenes": [],
       "texto": "🚒 Si ves a un bombero que deja de echar agua en pleno incendio… no se ha rendido: está evitando que el techo se le caiga encima.\n\n💧 El agua pesa: 1 litro = 1 kilo. Una lanza a 200 l/min mete 200 kg por minuto en ese piso. En 10 minutos, 2 toneladas.\n🧱 Si no drena, se queda encima del forjado: 1 cm de agua en 1 m² son 10 kg.\n🔥 Mientras, la madera pierde sección y el acero cede entre 350 y 500 °C.\n\n⚠️ Antes de caer, el techo avisa: crujidos y chasquidos, grietas que crecen, yeso que se desprende, puertas que se atascan y agua que no se va. Con una sola señal: se sale, o no se entra.\n\n📝 La trampa del examen: en el incendio de una nave, la zona de colapso es 1,5 veces la altura del edificio (en general, de 1,5 a 2). Ha caído en Segovia 2024, Granada 2025, Cáceres 2025 y A Coruña 2026.\n\n👥 Mándaselo a quien oposite contigo.\n🇪🇸 ¿Opositas a bombero en España? Prueba Bombero Flash 7 días: más de 500 exámenes oficiales de toda España. Enlace en la bio.\n\n#bomberos #oposicionesbombero #bombero #oposicionesespaña #incendios\n.\n.\n.\n📚 Fuentes: temario de Bombero Flash, tema 20 (Edificación), apartado 7.7 «Señales de colapso» (1 cm de agua en 1 m² = 10 kg; no cargar el forjado de agua), 7.2 (acero: colapso entre unos 350 y 500 °C según la sección) y 7.5 (madera: pierde sección); tema 29 (zona de colapso de 1,5 a 2 veces la altura). Exámenes de Bombero de Diputación de Segovia 2024, Diputación de Granada 2025, Diputación de Cáceres 2025 y Consorcio de A Coruña 2026.",
       "ia": false,
-      "estado": "publicando",
+      "estado": "publicado",
       "palabra_linkdm": null,
       "portada_ms": 3200,
       "nota": "Reel techo que se cae (peso del agua, señales de colapso, zona de colapso 1,5×H), gancho al estilo del reel del ablandado. Firme pidió publicarlo hoy a las 12:00 para medirlo (28-11).",
-      "publicando_desde": "2026-11-28T12:02+01:00"
+      "instagram_id": "17931078459430003",
+      "enlace": "https://www.instagram.com/reel/DgSGgZwTfz5/",
+      "publicado_en": "2026-11-28T12:03+01:00"
+    },
+    {
+      "id": "reel_51_backdraft_real",
+      "fecha": "2026-11-28 21:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-51-backdraft-real.mp4",
+      "imagenes": [],
+      "texto": "🔥 Esto es un backdraft real, grabado en el simulador de los bomberos de Ginebra. Y en el examen de bombero en España cae casi todos los años.\n\n1️⃣ Sin oxígeno: el fuego sigue soltando gases sin quemar. Están por encima de su límite superior de inflamabilidad (LSI): demasiado ricos para arder.\n2️⃣ Las señales: humo denso y amarillento, cristales negros, puerta y pomo calientes, y humo que entra y sale por las rendijas (el incendio «respira»).\n3️⃣ Se abre la puerta: entra aire por abajo y la mezcla baja a su rango de inflamabilidad.\n4️⃣ Llega a las llamas del fondo y deflagra hacia fuera. Es una deflagración (subsónica, hasta 0,1 bar), no una detonación.\n\n⚠️ Trampa de examen: el backdraft lo provoca la entrada de aire, no la temperatura. El flashover sí depende de la temperatura (la radiación).\n\n📝 Cádiz 2022 (Bombero): «Si desde el exterior parece que el incendio respira y exhala… son síntomas de un:» → Backdraught o backdraft. También cayó en Córdoba 2025 (Sargento) y en Granada 2025.\n\n🚒 ¿Opositas a bombero en España? Prueba Bombero Flash 7 días: más de 500 exámenes reales. Enlace en la bio.\n\n#bomberos #backdraft #oposicionesbombero #bombero #incendios\n.\n.\n.\n🎥 Vídeo: «Pompiers Genève - Simulateur Backdraft & FGI», Service d'Incendie et de Secours - Ville de Genève, licencia CC BY 3.0 (creativecommons.org/licenses/by/3.0). Recortado, ralentizado y con rótulos y voz añadidos.\n📚 Fuentes: Temario de Bombero Flash, tema 3 (backdraft o tiro de retorno, UNE-EN ISO 13943; indicadores; flashover frente a backdraft). Preguntas reales: Cádiz 2022 Bombero, Córdoba 2025 Sargento, Diputación de Granada 2025.",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": null,
+      "portada_ms": 1000,
+      "redes": [
+        "instagram"
+      ],
+      "nota": "Primer reel con vídeo real (bomberos de Ginebra, CC BY 3.0). Aprobado por el usuario 28-11 12:53. Solo Instagram: TikTok lo lleva su propio hilo."
+    },
+    {
+      "id": "historia_preg01_pregunta",
+      "fecha": "2026-11-29 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/01-A-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 1/20 (monóxido de carbono), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg01_respuesta",
+      "fecha": "2026-11-29 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/01-A-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 1/20 (monóxido de carbono), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg02_pregunta",
+      "fecha": "2026-11-30 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/02-A-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 2/20 (vapor de agua), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg02_respuesta",
+      "fecha": "2026-11-30 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/02-A-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 2/20 (vapor de agua), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg03_pregunta",
+      "fecha": "2026-12-01 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/03-A-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 3/20 (pool fire), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg03_respuesta",
+      "fecha": "2026-12-01 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/03-A-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 3/20 (pool fire), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg04_pregunta",
+      "fecha": "2026-12-02 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/04-A-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 4/20 (llama de potasio), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg04_respuesta",
+      "fecha": "2026-12-02 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/04-A-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 4/20 (llama de potasio), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg05_pregunta",
+      "fecha": "2026-12-03 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/05-A-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 5/20 (quemaduras), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg05_respuesta",
+      "fecha": "2026-12-03 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/05-A-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 5/20 (quemaduras), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg06_pregunta",
+      "fecha": "2026-12-04 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/06-A-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 6/20 (hidrógeno), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg06_respuesta",
+      "fecha": "2026-12-04 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/06-A-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 6/20 (hidrógeno), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg07_pregunta",
+      "fecha": "2026-12-05 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/07-A-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 7/20 (altura de aspiración), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg07_respuesta",
+      "fecha": "2026-12-05 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/07-A-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 7/20 (altura de aspiración), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg08_pregunta",
+      "fecha": "2026-12-06 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/08-D-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 8/20 (caudal l/h), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg08_respuesta",
+      "fecha": "2026-12-06 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/08-D-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 8/20 (caudal l/h), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg09_pregunta",
+      "fecha": "2026-12-07 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/09-D-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 9/20 (panel 225), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg09_respuesta",
+      "fecha": "2026-12-07 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/09-D-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 9/20 (panel 225), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg10_pregunta",
+      "fecha": "2026-12-08 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/10-D-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 10/20 (ADR clase 8), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg10_respuesta",
+      "fecha": "2026-12-08 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/10-D-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 10/20 (ADR clase 8), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg11_pregunta",
+      "fecha": "2026-12-09 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/11-D-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 11/20 (guantes clase 00), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg11_respuesta",
+      "fecha": "2026-12-09 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/11-D-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 11/20 (guantes clase 00), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg12_pregunta",
+      "fecha": "2026-12-10 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/12-D-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 12/20 (manguera 25 mm), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg12_respuesta",
+      "fecha": "2026-12-10 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/12-D-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 12/20 (manguera 25 mm), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg13_pregunta",
+      "fecha": "2026-12-11 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/13-C-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 13/20 (tetraedro del fuego), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg13_respuesta",
+      "fecha": "2026-12-11 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/13-C-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 13/20 (tetraedro del fuego), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg14_pregunta",
+      "fecha": "2026-12-12 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/14-C-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 14/20 (fuego de cocina F/K), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg14_respuesta",
+      "fecha": "2026-12-12 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/14-C-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 14/20 (fuego de cocina F/K), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg15_pregunta",
+      "fecha": "2026-12-13 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/15-C-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 15/20 (parabrisas), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg15_respuesta",
+      "fecha": "2026-12-13 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/15-C-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 15/20 (parabrisas), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg16_pregunta",
+      "fecha": "2026-12-14 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/16-C-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 16/20 (CO2 secundario), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg16_respuesta",
+      "fecha": "2026-12-14 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/16-C-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 16/20 (CO2 secundario), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg17_pregunta",
+      "fecha": "2026-12-15 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/17-C-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 17/20 (masa del vehículo), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg17_respuesta",
+      "fecha": "2026-12-15 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/17-C-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 17/20 (masa del vehículo), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg18_pregunta",
+      "fecha": "2026-12-16 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/18-B-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 18/20 (reto N2/EPI/espuma), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg18_respuesta",
+      "fecha": "2026-12-16 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/18-B-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 18/20 (reto N2/EPI/espuma), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg19_pregunta",
+      "fecha": "2026-12-17 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/19-B-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 19/20 (reto bombas), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg19_respuesta",
+      "fecha": "2026-12-17 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/19-B-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 19/20 (reto bombas), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg20_pregunta",
+      "fecha": "2026-12-18 15:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/20-B-1-pregunta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 20/20 (reto taquipnea/Kemler/trunking), pregunta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
+    },
+    {
+      "id": "historia_preg20_respuesta",
+      "fecha": "2026-12-18 20:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-preguntas/20-B-2-respuesta.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Pregunta del día 20/20 (reto taquipnea/Kemler/trunking), respuesta. Pregunta real del banco de la app, respuesta revisada. Estilo letra C v3. Aprobada por el usuario 28-11 12:55."
     },
     {
       "id": "historia_bf_oferta",
