@@ -1790,10 +1790,10 @@
       "imagenes": [
         "media/historias-2026-11-26/h6-la-plaza.jpg"
       ],
-      "estado": "pendiente",
+      "estado": "en_revision",
       "texto": "",
       "ia": false,
-      "nota": "Sustituye a historia_plaza_noche. Foto p24. Aprobada 25-11."
+      "nota": "Sustituye a historia_plaza_noche. Foto p24. Aprobada 25-11. 28-11: pausada, dice «380 exámenes» (hay más de 500); el usuario pide rehacerla con otro estilo."
     },
     {
       "id": "historia_b25_ultimo_dia",
