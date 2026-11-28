@@ -1986,9 +1986,11 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "publicando",
+      "estado": "publicado",
       "nota": "Estilo nuevo (letra Fraunces). La plaza no se regala. Se entrena. Foto p10. Aprobada por el usuario 28-11 11:05.",
-      "publicando_desde": "2026-11-28T17:01+01:00"
+      "instagram_id": "18092709389264807",
+      "enlace": "https://www.instagram.com/stories/bombero_flash/4040470769879831658",
+      "publicado_en": "2026-11-28T17:01+01:00"
     },
     {
       "id": "historia_c_500_examenes",
