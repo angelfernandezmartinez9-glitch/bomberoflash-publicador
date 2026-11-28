@@ -1790,10 +1790,10 @@
       "imagenes": [
         "media/historias-2026-11-26/h6-la-plaza.jpg"
       ],
-      "estado": "en_revision",
+      "estado": "archivado",
       "texto": "",
       "ia": false,
-      "nota": "Sustituye a historia_plaza_noche. Foto p24. Aprobada 25-11. 28-11: pausada, dice «380 exámenes» (hay más de 500); el usuario pide rehacerla con otro estilo."
+      "nota": "Sustituye a historia_plaza_noche. Foto p24. Aprobada 25-11. 28-11: pausada, dice «380 exámenes» (hay más de 500); el usuario pide rehacerla con otro estilo. Sustituida por historia_c_* (estilo nuevo)."
     },
     {
       "id": "historia_b25_ultimo_dia",
@@ -1974,6 +1974,54 @@
       "instagram_id": "18428732824158460",
       "enlace": "https://www.instagram.com/reel/DgQ8nhrzmP7/",
       "publicado_en": "2026-11-28T01:17+01:00"
+    },
+    {
+      "id": "historia_c_la_plaza",
+      "fecha": "2026-11-28 17:00",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-28/1-la-plaza.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Estilo nuevo (letra Fraunces). La plaza no se regala. Se entrena. Foto p10. Aprobada por el usuario 28-11 11:05."
+    },
+    {
+      "id": "historia_c_500_examenes",
+      "fecha": "2026-11-28 17:01",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-28/2-500-examenes.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Estilo nuevo (letra Fraunces). Más de 500 exámenes oficiales; más del doble que cualquier otra plataforma que publica su cifra; 22,95 €/mes. Foto p14. Aprobada por el usuario 28-11 11:05."
+    },
+    {
+      "id": "historia_c_entrena",
+      "fecha": "2026-11-28 17:02",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-28/3-entrena.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Estilo nuevo (letra Fraunces). Entrena como compites: simulacros, ranking, duelos 1v1. Foto p27. Aprobada por el usuario 28-11 11:05."
+    },
+    {
+      "id": "historia_c_pruebalo",
+      "fecha": "2026-11-28 17:03",
+      "tipo": "historia",
+      "imagenes": [
+        "media/historias-2026-11-28/4-pruebalo.jpg"
+      ],
+      "texto": "",
+      "ia": false,
+      "estado": "pendiente",
+      "nota": "Estilo nuevo (letra Fraunces). Pruébalo 7 días; 22,95 €/mes sin permanencia. Foto p93. Aprobada por el usuario 28-11 11:05."
     }
   ]
 }
