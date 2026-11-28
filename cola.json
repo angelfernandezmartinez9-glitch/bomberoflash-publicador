@@ -2019,8 +2019,9 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Estilo nuevo (letra Fraunces). Entrena como compites: simulacros, ranking, duelos 1v1. Foto p27. Aprobada por el usuario 28-11 11:05."
+      "estado": "publicando",
+      "nota": "Estilo nuevo (letra Fraunces). Entrena como compites: simulacros, ranking, duelos 1v1. Foto p27. Aprobada por el usuario 28-11 11:05.",
+      "publicando_desde": "2026-11-28T17:03+01:00"
     },
     {
       "id": "historia_c_pruebalo",
