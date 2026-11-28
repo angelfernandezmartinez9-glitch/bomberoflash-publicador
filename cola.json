@@ -1986,8 +1986,9 @@
       ],
       "texto": "",
       "ia": false,
-      "estado": "pendiente",
-      "nota": "Estilo nuevo (letra Fraunces). La plaza no se regala. Se entrena. Foto p10. Aprobada por el usuario 28-11 11:05."
+      "estado": "publicando",
+      "nota": "Estilo nuevo (letra Fraunces). La plaza no se regala. Se entrena. Foto p10. Aprobada por el usuario 28-11 11:05.",
+      "publicando_desde": "2026-11-28T17:01+01:00"
     },
     {
       "id": "historia_c_500_examenes",
