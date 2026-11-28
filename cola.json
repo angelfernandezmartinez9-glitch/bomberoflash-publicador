@@ -1402,7 +1402,7 @@
     },
     {
       "id": "reel_34_boilover",
-      "fecha": "2026-11-28 21:00",
+      "fecha": "2026-12-01 13:00",
       "tipo": "reel",
       "video": "media/reels/reel-34-boilover.mp4",
       "imagenes": [],
@@ -1410,7 +1410,8 @@
       "ia": false,
       "estado": "pendiente",
       "palabra_linkdm": "BOILOVER",
-      "portada_ms": 5000
+      "portada_ms": 5000,
+      "nota": "28-11: movido del 28-11 21:00 al 1-12 13:00 para dejar sitio al reel del backdraft con vídeo real."
     },
     {
       "id": "reel_35_calor",
@@ -2039,6 +2040,22 @@
       "instagram_id": "17931078459430003",
       "enlace": "https://www.instagram.com/reel/DgSGgZwTfz5/",
       "publicado_en": "2026-11-28T12:03+01:00"
+    },
+    {
+      "id": "reel_51_backdraft_real",
+      "fecha": "2026-11-28 21:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-51-backdraft-real.mp4",
+      "imagenes": [],
+      "texto": "🔥 Esto es un backdraft real, grabado en el simulador de los bomberos de Ginebra. Y en el examen de bombero en España cae casi todos los años.\n\n1️⃣ Sin oxígeno: el fuego sigue soltando gases sin quemar. Están por encima de su límite superior de inflamabilidad (LSI): demasiado ricos para arder.\n2️⃣ Las señales: humo denso y amarillento, cristales negros, puerta y pomo calientes, y humo que entra y sale por las rendijas (el incendio «respira»).\n3️⃣ Se abre la puerta: entra aire por abajo y la mezcla baja a su rango de inflamabilidad.\n4️⃣ Llega a las llamas del fondo y deflagra hacia fuera. Es una deflagración (subsónica, hasta 0,1 bar), no una detonación.\n\n⚠️ Trampa de examen: el backdraft lo provoca la entrada de aire, no la temperatura. El flashover sí depende de la temperatura (la radiación).\n\n📝 Cádiz 2022 (Bombero): «Si desde el exterior parece que el incendio respira y exhala… son síntomas de un:» → Backdraught o backdraft. También cayó en Córdoba 2025 (Sargento) y en Granada 2025.\n\n🚒 ¿Opositas a bombero en España? Prueba Bombero Flash 7 días: más de 500 exámenes reales. Enlace en la bio.\n\n#bomberos #backdraft #oposicionesbombero #bombero #incendios\n.\n.\n.\n🎥 Vídeo: «Pompiers Genève - Simulateur Backdraft & FGI», Service d'Incendie et de Secours - Ville de Genève, licencia CC BY 3.0 (creativecommons.org/licenses/by/3.0). Recortado, ralentizado y con rótulos y voz añadidos.\n📚 Fuentes: Temario de Bombero Flash, tema 3 (backdraft o tiro de retorno, UNE-EN ISO 13943; indicadores; flashover frente a backdraft). Preguntas reales: Cádiz 2022 Bombero, Córdoba 2025 Sargento, Diputación de Granada 2025.",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": null,
+      "portada_ms": 1000,
+      "redes": [
+        "instagram"
+      ],
+      "nota": "Primer reel con vídeo real (bomberos de Ginebra, CC BY 3.0). Aprobado por el usuario 28-11 12:53. Solo Instagram: TikTok lo lleva su propio hilo."
     }
   ]
 }
