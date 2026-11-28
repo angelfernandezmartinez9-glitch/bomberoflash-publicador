@@ -1942,10 +1942,12 @@
       "imagenes": [],
       "texto": "💧 Examen de bombero: tu manguera pierde presión por el camino. ¿Qué es peor? A) meterle el doble de agua o B) una manguera la mitad de ancha?\n\n⚠️ Casi todo el mundo dice la A… y es la B, por goleada.\n\n✅ Cómo funcionan las pérdidas de carga:\n1️⃣ Doble de longitud → doble de pérdidas.\n2️⃣ Doble de caudal → 4 veces más (van con el cuadrado del caudal).\n3️⃣ Mitad de diámetro → 32 veces más (quinta potencia: el diámetro manda).\n🪤 Trampas: subir la presión de la bomba no cambia las pérdidas, y con la lanza cerrada son cero.\n🧮 Ejemplo: 4 mangueras de 25 mm a un 4.º piso a 150 l/min → 4 × 1,5 = 6 bar de pérdidas + 1 bar de altura + 7 bar en lanza = 14 bar en bomba.\n\nHa caído en Almería (2021), Albacete (2023) y Cartagena (2026).\n\n💬 ¿Opositas a bombero en España? Comenta CARGA y te mando sus preguntas de examen.\n📲 Más de 450 exámenes reales en Bombero Flash: bomberoflash.es · 7 días de prueba.\n\n#bomberos #oposicionesbombero #hidraulica #oposicionesespaña #bombero\n.\n.\n.\n📚 Fuentes: Temario de Bombero Flash, tema 19 (Hidráulica): 6.1 (qué son; con la lanza cerrada son cero), 6.2 (Darcy-Weisbach: proporcional a la longitud, al cuadrado del caudal e inversa a la quinta potencia del diámetro; no depende de la presión), 6.4 (1 bar cada 10 m de desnivel) y 7.3 (regla de la mano: 4 × 1,5 + 1 + 7 = 14 bar). Exámenes: Ayuntamiento de Almería 2021, Ayuntamiento de Albacete 2023 y Cartagena 2026.",
       "ia": false,
-      "estado": "publicando",
+      "estado": "publicado",
       "palabra_linkdm": "CARGA",
       "portada_ms": 6000,
-      "publicando_desde": "2026-11-28T17:01+01:00"
+      "instagram_id": "18079506065779689",
+      "enlace": "https://www.instagram.com/reel/DgSov25SokW/",
+      "publicado_en": "2026-11-28T17:02+01:00"
     },
     {
       "id": "reel_48_paralelo",
