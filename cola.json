@@ -1389,7 +1389,7 @@
     },
     {
       "id": "reel_33_descarga",
-      "fecha": "2026-11-28 13:00",
+      "fecha": "2026-12-06 21:00",
       "tipo": "reel",
       "video": "media/reels/reel-33-descarga.mp4",
       "imagenes": [],
@@ -1397,7 +1397,8 @@
       "ia": false,
       "estado": "pendiente",
       "palabra_linkdm": "DESCARGA",
-      "portada_ms": 6800
+      "portada_ms": 6800,
+      "nota": "28-11: movido del 28-11 13:00 al 6-12 21:00 para dejar sitio al reel del techo (orden de Firme)."
     },
     {
       "id": "reel_34_boilover",
@@ -2022,6 +2023,19 @@
       "ia": false,
       "estado": "pendiente",
       "nota": "Estilo nuevo (letra Fraunces). Pruébalo 7 días; 22,95 €/mes sin permanencia. Foto p93. Aprobada por el usuario 28-11 11:05."
+    },
+    {
+      "id": "reel_50_techo",
+      "fecha": "2026-11-28 12:00",
+      "tipo": "reel",
+      "video": "media/reels/reel-50-techo.mp4",
+      "imagenes": [],
+      "texto": "🚒 Si ves a un bombero que deja de echar agua en pleno incendio… no se ha rendido: está evitando que el techo se le caiga encima.\n\n💧 El agua pesa: 1 litro = 1 kilo. Una lanza a 200 l/min mete 200 kg por minuto en ese piso. En 10 minutos, 2 toneladas.\n🧱 Si no drena, se queda encima del forjado: 1 cm de agua en 1 m² son 10 kg.\n🔥 Mientras, la madera pierde sección y el acero cede entre 350 y 500 °C.\n\n⚠️ Antes de caer, el techo avisa: crujidos y chasquidos, grietas que crecen, yeso que se desprende, puertas que se atascan y agua que no se va. Con una sola señal: se sale, o no se entra.\n\n📝 La trampa del examen: en el incendio de una nave, la zona de colapso es 1,5 veces la altura del edificio (en general, de 1,5 a 2). Ha caído en Segovia 2024, Granada 2025, Cáceres 2025 y A Coruña 2026.\n\n👥 Mándaselo a quien oposite contigo.\n🇪🇸 ¿Opositas a bombero en España? Prueba Bombero Flash 7 días: más de 500 exámenes oficiales de toda España. Enlace en la bio.\n\n#bomberos #oposicionesbombero #bombero #oposicionesespaña #incendios\n.\n.\n.\n📚 Fuentes: temario de Bombero Flash, tema 20 (Edificación), apartado 7.7 «Señales de colapso» (1 cm de agua en 1 m² = 10 kg; no cargar el forjado de agua), 7.2 (acero: colapso entre unos 350 y 500 °C según la sección) y 7.5 (madera: pierde sección); tema 29 (zona de colapso de 1,5 a 2 veces la altura). Exámenes de Bombero de Diputación de Segovia 2024, Diputación de Granada 2025, Diputación de Cáceres 2025 y Consorcio de A Coruña 2026.",
+      "ia": false,
+      "estado": "pendiente",
+      "palabra_linkdm": null,
+      "portada_ms": 3200,
+      "nota": "Reel techo que se cae (peso del agua, señales de colapso, zona de colapso 1,5×H), gancho al estilo del reel del ablandado. Firme pidió publicarlo hoy a las 12:00 para medirlo (28-11)."
     }
   ]
 }
